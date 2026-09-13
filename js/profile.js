@@ -7,6 +7,9 @@
   // data-p-key="chemin.vers.la.valeur" est remplacé au changement de profil.
   const PROFILES = {
     institut: {
+      meta: {
+        title: "Milappli — Votre application mobile pour fidéliser vos clientes"
+      },
       hero: {
         eyebrow: "La plateforme qui transforme chaque rendez-vous en une relation durable",
         h1: 'Ne soyez plus seulement l\'esthéticienne de vos clientes.<br>Devenez leur <span class="serif">référence beauté.</span>',
@@ -195,6 +198,9 @@
       }
     },
     coiffeur: {
+      meta: {
+        title: "Milappli — Votre application mobile pour fidéliser vos clients"
+      },
       hero: {
         eyebrow: "La plateforme qui transforme chaque coupe en une relation durable",
         h1: 'Ne soyez plus seulement le coiffeur de vos clients.<br>Devenez leur <span class="serif">référence coiffure.</span>',
@@ -390,6 +396,7 @@
 
   function render(profile) {
     const data = PROFILES[profile];
+    if (data.meta && data.meta.title) document.title = data.meta.title;
     document.querySelectorAll('[data-p-key]').forEach((el) => {
       const value = getPath(data, el.dataset.pKey);
       if (value == null) return;
