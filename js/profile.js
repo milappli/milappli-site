@@ -88,6 +88,110 @@
       },
       footer: {
         brandDesc: "Des applications mobiles personnalisées pour les instituts de beauté, spas et centres esthétiques. France · Belgique · Suisse · Luxembourg."
+      },
+      universe: {
+        eyebrow: "Elles vous découvrent ailleurs. Elles reviennent chez vous.",
+        title: 'Les plateformes peuvent vous aider à être découverte. <span class="serif">Milappli vous aide à ne pas la perdre ensuite.</span>',
+        lead: "Les plateformes peuvent vous aider à être découverte. Milappli prend le relais pour construire une relation durable avec les clientes qui vous connaissent déjà.",
+        step1: "Elle vous trouve.",
+        step2: "Elle vous découvre.",
+        step3: "Vous restez présente.",
+        step4: "Elle revient."
+      },
+      solution: {
+        title: 'Restez présente, <span class="serif">même entre deux rendez-vous.</span>',
+        items: [
+          { text: "Partagez routines, recommandations et conseils beauté directement avec vos clientes." },
+          { text: "Faites découvrir vos nouveaux soins et produits sans dépendre des algorithmes des réseaux sociaux." },
+          { text: "Vos clientes savent toujours où elles en sont et retrouvent facilement leurs séances restantes." },
+          { text: "Communiquez directement et restez présente au moment qui compte, par notification push." },
+          { text: "Valorisez une prestation, un produit ou une nouveauté auprès de clientes qui connaissent déjà votre institut." },
+          { text: "Créez un véritable espace beauté autour de votre expertise et de votre univers." }
+        ]
+      },
+      atYourImage: {
+        mockBrand: "Institut Lumière",
+        mockGreeting: "Bonjour Camille",
+        mockHero: "Soin Éclat du mois",
+        mockAppointment: "Jeudi 14h30 — Soin visage",
+        lead: "Milappli devient le prolongement digital de votre institut. Votre logo, vos couleurs, vos photos et votre contenu créent un espace immédiatement reconnaissable par vos clientes.",
+        items: {
+          1: { text: "Une interface adaptée à l'univers visuel de votre institut." },
+          2: { text: "Soins, forfaits, conseils et actualités présentés avec votre ton." },
+          3: { text: "Vos clientes retrouvent votre institut dans un espace clair, utile et immédiatement reconnaissable." }
+        }
+      },
+      wishlist: {
+        lead: "Votre cliente compose sa wishlist au fil de ses envies — soins, produits ou prestations. Lorsqu'un proche souhaite lui faire plaisir, il peut la consulter et choisir directement ce qui lui correspond.",
+        step1: "Elle découvre",
+        step2: "Elle ajoute à sa wishlist",
+        step4: "Votre institut, destination cadeau",
+        products: [
+          { title: "Soin Éclat", price: "65 €" },
+          { title: "Sérum Vitamine C", price: "42 €" },
+          { title: "Massage relaxant", price: "55 €" },
+          { title: "Cure anti-âge", price: "210 €" }
+        ],
+        tagName: "Wishlist de Camille"
+      },
+      results: {
+        items: {
+          0: '<strong>Plus de clientes qui reviennent :</strong> le lien entretenu entre deux rendez-vous se traduit naturellement en nouvelles visites.',
+          1: '<strong>Une clientèle plus engagée :</strong> vos clientes suivent leurs forfaits, vos actualités et vos conseils au quotidien.',
+          2: '<strong>Une relation plus personnelle :</strong> chaque cliente retrouve son parcours et se sent reconnue, pas seulement servie.',
+          3: '<strong>Une fréquence de visite plus importante :</strong> les clientes entretiennent leur cure jusqu\'au bout, et les rendez-vous suivants se prennent plus naturellement.',
+          4: '<strong>Un fichier client réellement exploité :</strong> les clientes que vous avez déjà reçues restent actives, pas oubliées.'
+        },
+        mockSubtitle: "Séances & cures en cours",
+        prog1Title: "Cure anti-âge",
+        prog2Title: "Forfait beauté des mains",
+        promoTitle: "−20% sur les soins du mois"
+      },
+      reflex: {
+        title1: 'Lorsqu\'une cliente pense beauté, <span class="serif">où va-t-elle en premier ?</span>',
+        sub: "Google ? Instagram ? Une influenceuse ?",
+        lead: "En restant présente entre deux rendez-vous, votre institut devient progressivement l'endroit où vos clientes viennent chercher un soin, un produit, une nouveauté ou simplement un conseil."
+      },
+      how: {
+        items: {
+          0: { title: 'Découverte de <em>votre institut</em>' },
+          1: { text: "Nous intégrons votre logo, vos couleurs, vos contenus, vos soins et vos forfaits." },
+          2: { text: "Votre application est préparée, vérifiée puis mise à disposition de vos clientes." },
+          3: { text: "Vous êtes accompagnée dans la prise en main et les ajustements nécessaires." }
+        }
+      },
+      preview: {
+        eyebrow: "L'expérience cliente",
+        title: 'Découvrez l\'expérience <span class="serif">cliente.</span>',
+        card1: { brand: "Institut Lumière", greeting: "Bonjour Camille", hero: "Soin Éclat du mois", caption: "Votre institut, en un geste" },
+        card2: { subtitle: "Séances & cures en cours", prog1: "Cure anti-âge", prog2: "Forfait beauté des mains", captionStrong: "Forfaits & cures" },
+        card3: {
+          subtitle: "Votre référence beauté",
+          post1Title: "3 gestes pour prolonger votre soin éclat",
+          post1Sub: "Les conseils de votre institut, entre deux rendez-vous.",
+          post2Title: "Notre nouvelle routine anti-âge",
+          post2Sub: "Le protocole recommandé par votre esthéticienne."
+        }
+      },
+      further: {
+        lead: "Milappli fait vivre la relation avec vos clientes. Pour les instituts qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
+        stepChoice: "Choix du soin",
+        level1: "Vos conseils, vos nouveautés et le suivi de vos forfaits font vivre la relation entre deux rendez-vous et donnent envie à vos clientes de revenir.",
+        level2: "De l'envie au prochain rendez-vous, sans quitter votre univers. Vos clientes réservent directement depuis votre application, et vous centralisez la gestion de vos rendez-vous.",
+        level3: "Pour les instituts qui souhaitent centraliser davantage leur gestion, Milappli peut réunir relation client, agenda et logiciel de caisse au sein d'une même solution.",
+        closing: "Chaque institut choisit le niveau adapté à ses besoins, au moment de la démonstration."
+      },
+      devis: {
+        title: 'Une solution adaptée <span class="serif">à votre institut.</span>',
+        lead: "Chaque institut est unique. Nous établissons un devis sur mesure, sans surprise.",
+        factorClients: "Votre nombre de clientes"
+      },
+      partners: {
+        text: "Vous connaissez le monde de la beauté et du bien-être ? Rejoignez notre réseau de partenaires indépendants et présentez Milappli aux instituts de votre région."
+      },
+      finalCta: {
+        title: 'Ne soyez plus seulement l\'esthéticienne de vos clientes.<br>Devenez leur <span class="serif">référence beauté.</span>',
+        text: "Transformez chaque rendez-vous en une relation qui continue bien après le soin."
       }
     },
     coiffeur: {
@@ -172,6 +276,110 @@
       },
       footer: {
         brandDesc: "Des applications mobiles personnalisées pour les salons de coiffure, barbershops et espaces capillaires. France · Belgique · Suisse · Luxembourg."
+      },
+      universe: {
+        eyebrow: "Ils vous découvrent ailleurs. Ils reviennent chez vous.",
+        title: 'Les plateformes peuvent vous aider à être découvert. <span class="serif">Milappli vous aide à ne pas la perdre ensuite.</span>',
+        lead: "Les plateformes peuvent vous aider à être découvert. Milappli prend le relais pour construire une relation durable avec les clients qui vous connaissent déjà.",
+        step1: "Il vous trouve.",
+        step2: "Il vous découvre.",
+        step3: "Vous restez présent.",
+        step4: "Il revient."
+      },
+      solution: {
+        title: 'Restez présent, <span class="serif">même entre deux rendez-vous.</span>',
+        items: [
+          { text: "Partagez routines, recommandations et conseils coiffure directement avec vos clients." },
+          { text: "Faites découvrir vos nouvelles coupes et produits sans dépendre des algorithmes des réseaux sociaux." },
+          { text: "Vos clients savent toujours où ils en sont et retrouvent facilement leurs séances restantes." },
+          { text: "Communiquez directement et restez présent au moment qui compte, par notification push." },
+          { text: "Valorisez une prestation, un produit ou une nouveauté auprès de clients qui connaissent déjà votre salon." },
+          { text: "Créez un véritable espace coiffure autour de votre expertise et de votre univers." }
+        ]
+      },
+      atYourImage: {
+        mockBrand: "Salon Lumière",
+        mockGreeting: "Bonjour Thomas",
+        mockHero: "Coupe tendance du mois",
+        mockAppointment: "Jeudi 14h30 — Coupe & brushing",
+        lead: "Milappli devient le prolongement digital de votre salon. Votre logo, vos couleurs, vos photos et votre contenu créent un espace immédiatement reconnaissable par vos clients.",
+        items: {
+          1: { text: "Une interface adaptée à l'univers visuel de votre salon." },
+          2: { text: "Coupes, forfaits, conseils et actualités présentés avec votre ton." },
+          3: { text: "Vos clients retrouvent votre salon dans un espace clair, utile et immédiatement reconnaissable." }
+        }
+      },
+      wishlist: {
+        lead: "Votre client compose sa wishlist au fil de ses envies — coupes, produits ou prestations. Lorsqu'un proche souhaite lui faire plaisir, il peut la consulter et choisir directement ce qui lui correspond.",
+        step1: "Il découvre",
+        step2: "Il ajoute à sa wishlist",
+        step4: "Votre salon, destination cadeau",
+        products: [
+          { title: "Coupe + Brushing", price: "45 €" },
+          { title: "Soin Kératine", price: "38 €" },
+          { title: "Massage crânien", price: "35 €" },
+          { title: "Forfait couleur", price: "180 €" }
+        ],
+        tagName: "Wishlist de Thomas"
+      },
+      results: {
+        items: {
+          0: '<strong>Plus de clients qui reviennent :</strong> le lien entretenu entre deux rendez-vous se traduit naturellement en nouvelles visites.',
+          1: '<strong>Une clientèle plus engagée :</strong> vos clients suivent leurs forfaits, vos actualités et vos conseils au quotidien.',
+          2: '<strong>Une relation plus personnelle :</strong> chaque client retrouve son parcours et se sent reconnu, pas seulement servi.',
+          3: '<strong>Une fréquence de visite plus importante :</strong> les clients entretiennent leur forfait jusqu\'au bout, et les rendez-vous suivants se prennent plus naturellement.',
+          4: '<strong>Un fichier client réellement exploité :</strong> les clients que vous avez déjà reçus restent actifs, pas oubliés.'
+        },
+        mockSubtitle: "Séances & forfaits en cours",
+        prog1Title: "Forfait coloration",
+        prog2Title: "Forfait brushing",
+        promoTitle: "−20% sur les coupes du mois"
+      },
+      reflex: {
+        title1: 'Lorsqu\'un client pense coiffure, <span class="serif">où va-t-il en premier ?</span>',
+        sub: "Google ? Instagram ? Un influenceur ?",
+        lead: "En restant présent entre deux rendez-vous, votre salon devient progressivement l'endroit où vos clients viennent chercher une coupe, un produit, une nouveauté ou simplement un conseil."
+      },
+      how: {
+        items: {
+          0: { title: 'Découverte de <em>votre salon</em>' },
+          1: { text: "Nous intégrons votre logo, vos couleurs, vos contenus, vos coupes et vos forfaits." },
+          2: { text: "Votre application est préparée, vérifiée puis mise à disposition de vos clients." },
+          3: { text: "Vous êtes accompagné dans la prise en main et les ajustements nécessaires." }
+        }
+      },
+      preview: {
+        eyebrow: "L'expérience client",
+        title: 'Découvrez l\'expérience <span class="serif">client.</span>',
+        card1: { brand: "Salon Lumière", greeting: "Bonjour Thomas", hero: "Coupe tendance du mois", caption: "Votre salon, en un geste" },
+        card2: { subtitle: "Séances & forfaits en cours", prog1: "Forfait coloration", prog2: "Forfait brushing", captionStrong: "Forfaits & coupes" },
+        card3: {
+          subtitle: "Votre référence coiffure",
+          post1Title: "3 gestes pour prolonger votre couleur",
+          post1Sub: "Les conseils de votre salon, entre deux rendez-vous.",
+          post2Title: "Notre nouvelle routine soin capillaire",
+          post2Sub: "Le protocole recommandé par votre coiffeur."
+        }
+      },
+      further: {
+        lead: "Milappli fait vivre la relation avec vos clients. Pour les salons qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
+        stepChoice: "Choix de la coupe",
+        level1: "Vos conseils, vos nouveautés et le suivi de vos forfaits font vivre la relation entre deux rendez-vous et donnent envie à vos clients de revenir.",
+        level2: "De l'envie au prochain rendez-vous, sans quitter votre univers. Vos clients réservent directement depuis votre application, et vous centralisez la gestion de vos rendez-vous.",
+        level3: "Pour les salons qui souhaitent centraliser davantage leur gestion, Milappli peut réunir relation client, agenda et logiciel de caisse au sein d'une même solution.",
+        closing: "Chaque salon choisit le niveau adapté à ses besoins, au moment de la démonstration."
+      },
+      devis: {
+        title: 'Une solution adaptée <span class="serif">à votre salon.</span>',
+        lead: "Chaque salon est unique. Nous établissons un devis sur mesure, sans surprise.",
+        factorClients: "Votre nombre de clients"
+      },
+      partners: {
+        text: "Vous connaissez le monde de la coiffure et du bien-être ? Rejoignez notre réseau de partenaires indépendants et présentez Milappli aux salons de votre région."
+      },
+      finalCta: {
+        title: 'Ne soyez plus seulement le coiffeur de vos clients.<br>Devenez leur <span class="serif">référence coiffure.</span>',
+        text: "Transformez chaque rendez-vous en une relation qui continue bien après la coupe."
       }
     }
   };
