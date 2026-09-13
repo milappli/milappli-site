@@ -14,6 +14,14 @@
 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact" />
   <p class="hidden"><label>Ne pas remplir : <input name="bot-field" /></label></p>
+  <label for="contact-subject">Objet de la demande</label>
+  <select id="contact-subject" name="subject" required>
+    <option value="" disabled selected>Sélectionnez un objet</option>
+    <option value="Demande de démo">Demande de démo</option>
+    <option value="Demande de devis">Demande de devis</option>
+    <option value="Devenir partenaire">Devenir partenaire</option>
+    <option value="Autre demande">Autre demande</option>
+  </select>
   <label for="contact-name">Nom</label>
   <input type="text" id="contact-name" name="name" required>
   <label for="contact-email">Email</label>

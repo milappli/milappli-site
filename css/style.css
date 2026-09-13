@@ -244,6 +244,23 @@
   .hero .reassure span{display:flex; align-items:center; gap:8px}
   .hero .reassure span::before{content:""; width:6px; height:6px; border-radius:50%; background:var(--burgundy); opacity:.6}
 
+  /* ---------- PROFILE SWITCH ---------- */
+  .profile-switch{display:flex; flex-direction:column; gap:10px; margin:28px 0 0}
+  .profile-switch-label{font-size:12px; letter-spacing:.1em; text-transform:uppercase; font-weight:600; color:var(--ink-3)}
+  .profile-switch-tabs{position:relative; display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:4px; box-shadow:var(--shadow-xs); max-width:460px}
+  .profile-switch-tabs::before{content:""; position:absolute; top:4px; left:4px; bottom:4px; width:calc(50% - 4px); border-radius:999px; background:var(--burgundy); transition:transform .35s var(--ease); z-index:0}
+  .profile-switch-tabs[data-active="coiffeur"]::before{transform:translateX(100%)}
+  .profile-tab{position:relative; z-index:1; display:flex; align-items:center; justify-content:center; gap:7px; border:none; background:transparent; cursor:pointer; padding:11px 14px; font-family:"DM Sans", sans-serif; font-size:13.5px; font-weight:600; letter-spacing:-0.005em; color:var(--ink-2); border-radius:999px; transition:color .3s var(--ease)}
+  .profile-tab .pt-ic{font-size:13px; opacity:.8}
+  .profile-tab[aria-selected="true"]{color:#fff}
+  .profile-tab:hover{color:var(--burgundy)}
+  .profile-tab[aria-selected="true"]:hover{color:#fff}
+  .profile-tab:focus-visible{outline:2px solid var(--burgundy); outline-offset:3px}
+
+  /* ---------- PROFILE-DEPENDENT CONTENT TRANSITION ---------- */
+  .profile-dynamic{transition:opacity .25s var(--ease), transform .25s var(--ease)}
+  .profile-dynamic.is-swapping{opacity:0; transform:translateY(6px)}
+
   .hero-visual{position:relative; display:flex; justify-content:center; align-items:center; min-height:660px}
   .hero-visual .phone{width:312px; height:638px}
   .hero-visual .phone .screen{height:622px}
@@ -508,11 +525,14 @@
   .contact-card{background:var(--card); border:1px solid var(--line); border-radius:28px; padding:42px 40px; box-shadow:var(--shadow-xs); display:flex; flex-direction:column; gap:20px}
   .contact-card .field{display:flex; flex-direction:column; gap:8px}
   .contact-card label{font-size:13px; font-weight:600; color:var(--ink-2)}
-  .contact-card input[type="text"], .contact-card input[type="email"], .contact-card textarea{
+  .contact-card input[type="text"], .contact-card input[type="email"], .contact-card textarea, .contact-card select{
     font-family:inherit; font-size:15px; color:var(--ink); background:var(--bg); border:1px solid var(--line);
     border-radius:14px; padding:13px 16px; outline:none; transition:border-color .25s, box-shadow .25s;
   }
-  .contact-card input:focus, .contact-card textarea:focus{border-color:var(--burgundy); box-shadow:0 0 0 3px rgba(91,64,73,.12)}
+  .contact-card select{appearance:none; background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'><path d='M3 5l4 4 4-4' fill='none' stroke='%23736D66' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>"); background-repeat:no-repeat; background-position:right 16px center; padding-right:40px}
+  .contact-card select:invalid{color:var(--ink-3)}
+  .contact-card input:focus, .contact-card textarea:focus, .contact-card select:focus{border-color:var(--burgundy); box-shadow:0 0 0 3px rgba(91,64,73,.12)}
+  .contact-card select.is-preselected{border-color:var(--burgundy); box-shadow:0 0 0 3px rgba(91,64,73,.18)}
   .contact-card textarea{resize:vertical; min-height:120px}
   .contact-card button{align-self:flex-start}
   .contact-card .hidden{position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden}
@@ -538,6 +558,7 @@
     .wrap{padding:0 24px} .nav-outer{padding:0 20px} .nav{margin:14px 20px 0}
     .sec{padding:72px 0} .hero{padding:50px 0 40px}
     .hero-grid{grid-template-columns:1fr; gap:36px} .hero h1{font-size:42px} .hero p.sub{max-width:none}
+    .profile-switch-tabs{max-width:none} .profile-tab{font-size:12.5px; padding:10px 8px}
     .hero-visual{min-height:auto} .hero-visual .phone{width:260px; height:530px} .hero-visual .phone .screen{height:514px}
     .float-card.one{left:0} .float-card.two{right:0}
     .sol-grid{grid-template-columns:1fr; gap:44px} .sol-visual{order:-1}

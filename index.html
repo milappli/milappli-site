@@ -39,11 +39,11 @@
     <li><a href="#solution">Solution</a></li>
     <li><a href="#features">Fonctionnalités</a></li>
     <li><a href="#offres">Offres</a></li>
-    <li><a href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Démo</a></li>
+    <li><a href="#contact" data-contact-subject="demo">Démo</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
   <div class="right">
-    <a class="cta" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Demander une démo <span class="arrow">→</span></a>
+    <a class="cta" href="#contact" data-contact-subject="demo">Demander une démo <span class="arrow">→</span></a>
     <button class="burger" id="burger" aria-label="Menu"><span></span></button>
   </div>
 </nav>
@@ -52,9 +52,9 @@
   <a href="#solution">Solution</a>
   <a href="#features">Fonctionnalités</a>
   <a href="#offres">Offres</a>
-  <a href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Démo</a>
+  <a href="#contact" data-contact-subject="demo">Démo</a>
   <a href="#faq">FAQ</a>
-  <a class="cta" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Demander une démo <span class="arrow">→</span></a>
+  <a class="cta" href="#contact" data-contact-subject="demo">Demander une démo <span class="arrow">→</span></a>
 </div>
 
 <span id="top"></span>
@@ -63,11 +63,22 @@
 <header class="hero" data-screen-label="Hero">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow reveal">La plateforme qui transforme chaque rendez-vous en une relation durable</span>
-      <h1 class="reveal d1">Ne soyez plus seulement l'esthéticienne de vos clientes.<br>Devenez leur <span class="serif">référence beauté.</span></h1>
-      <p class="sub reveal d2">Votre expertise ne devrait pas s'arrêter lorsqu'une cliente quitte votre institut. Avec Milappli, restez présente dans son quotidien, entretenez le lien entre deux rendez-vous et devenez naturellement son premier réflexe lorsqu'elle pense beauté.</p>
+      <span class="eyebrow reveal profile-dynamic" data-p-key="hero.eyebrow">La plateforme qui transforme chaque rendez-vous en une relation durable</span>
+      <h1 class="reveal d1 profile-dynamic" data-p-key="hero.h1" data-p-html="true">Ne soyez plus seulement l'esthéticienne de vos clientes.<br>Devenez leur <span class="serif">référence beauté.</span></h1>
+      <div class="profile-switch reveal d2" data-profile-switch>
+        <span class="profile-switch-label">Vous êtes…</span>
+        <div class="profile-switch-tabs" data-active="institut" role="tablist" aria-label="Choisissez votre profil">
+          <button type="button" class="profile-tab" data-profile="institut" role="tab" aria-selected="true">
+            <span class="pt-ic" aria-hidden="true">✦</span> Institut de beauté
+          </button>
+          <button type="button" class="profile-tab" data-profile="coiffeur" role="tab" aria-selected="false">
+            <span class="pt-ic" aria-hidden="true">✂</span> Salon de coiffure
+          </button>
+        </div>
+      </div>
+      <p class="sub reveal d2 profile-dynamic" data-p-key="hero.sub">Votre expertise ne devrait pas s'arrêter lorsqu'une cliente quitte votre institut. Avec Milappli, restez présente dans son quotidien, entretenez le lien entre deux rendez-vous et devenez naturellement son premier réflexe lorsqu'elle pense beauté.</p>
       <div class="actions reveal d3">
-        <a class="cta lg" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Demander une démo <span class="arrow">→</span></a>
+        <a class="cta lg" href="#contact" data-contact-subject="demo">Demander une démo <span class="arrow">→</span></a>
         <a class="cta ghost lg" href="#solution">Découvrir Milappli</a>
       </div>
       <div class="reassure reveal d4">
@@ -77,15 +88,15 @@
     <div class="hero-visual reveal d2">
       <div class="phone">
         <div class="notch"></div>
-        <div class="screen"><img class="mockup-img" src="images/hero-mockup.png" alt="Écran d'accueil de l'app - Milappli"></div>
+        <div class="screen"><img class="mockup-img profile-dynamic" src="images/hero-mockup.png" alt="Écran d'accueil de l'app - Milappli" data-p-key="mockup.imgAlt" data-p-attr="alt"></div>
       </div>
       <div class="float-card one">
         <span class="ic" aria-hidden="true">♥</span>
-        <div><div class="t">Votre soin Éclat vous attend</div><div class="s">notification de votre institut</div></div>
+        <div><div class="t profile-dynamic" data-p-key="mockup.float1.title">Votre soin Éclat vous attend</div><div class="s profile-dynamic" data-p-key="mockup.float1.sub">notification de votre institut</div></div>
       </div>
       <div class="float-card two">
         <span class="ic" aria-hidden="true">3</span>
-        <div><div class="t">Cure anti-âge</div><div class="s">3 séances restantes</div></div>
+        <div><div class="t profile-dynamic" data-p-key="mockup.float2.title">Cure anti-âge</div><div class="s profile-dynamic" data-p-key="mockup.float2.sub">3 séances restantes</div></div>
       </div>
     </div>
   </div>
@@ -98,14 +109,14 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow reveal">Le constat</span>
-      <h2 class="sec-title reveal d1" style="margin-top:18px">Votre relation avec vos clientes ne devrait pas s'arrêter à la porte de <span class="serif">votre institut.</span></h2>
-      <p class="lead reveal d2">Vous consacrez du temps à écouter, conseiller et prendre soin de chaque cliente. Pourtant, une fois le rendez-vous commencé, votre institut disparaît progressivement de son quotidien. Et c'est justement entre deux rendez-vous que se prennent de nombreuses décisions : refaire un soin, terminer une cure, acheter un produit ou découvrir une nouveauté.</p>
+      <h2 class="sec-title reveal d1 profile-dynamic" style="margin-top:18px" data-p-key="problem.title" data-p-html="true">Votre relation avec vos clientes ne devrait pas s'arrêter à la porte de <span class="serif">votre institut.</span></h2>
+      <p class="lead reveal d2 profile-dynamic" data-p-key="problem.lead">Vous consacrez du temps à écouter, conseiller et prendre soin de chaque cliente. Pourtant, une fois le rendez-vous commencé, votre institut disparaît progressivement de son quotidien. Et c'est justement entre deux rendez-vous que se prennent de nombreuses décisions : refaire un soin, terminer une cure, acheter un produit ou découvrir une nouveauté.</p>
     </div>
     <div class="prob-grid">
-      <div class="prob reveal"><div class="n" aria-hidden="true">i</div><h3>Les réseaux sociaux ne suffisent plus</h3><p>Vos publications se perdent rapidement dans le fil d'actualité. Même vos meilleures clientes ne voient pas toujours vos conseils et vos nouveautés.</p></div>
-      <div class="prob reveal d1"><div class="n" aria-hidden="true">ii</div><h3>Vos clientes sont sollicitées partout</h3><p>Réseaux sociaux, publicités, influenceuses, Google… entre deux rendez-vous, de nombreuses marques cherchent à attirer leur attention.</p></div>
-      <div class="prob reveal d2"><div class="n" aria-hidden="true">iii</div><h3>Vos offres doivent arriver au bon moment</h3><p>Un nouveau soin, un produit ou une offre n'a d'impact que si votre cliente le découvre lorsqu'elle en a besoin.</p></div>
-      <div class="prob reveal d3"><div class="n" aria-hidden="true">iv</div><h3>Votre expertise mérite de rester présente</h3><p>Vous connaissez vos clientes, leurs besoins et leurs habitudes. Cette relation ne devrait pas disparaître entre deux visites.</p></div>
+      <div class="prob reveal"><div class="n" aria-hidden="true">i</div><h3 class="profile-dynamic" data-p-key="problem.items.0.title">Les réseaux sociaux ne suffisent plus</h3><p class="profile-dynamic" data-p-key="problem.items.0.text">Vos publications se perdent rapidement dans le fil d'actualité. Même vos meilleures clientes ne voient pas toujours vos conseils et vos nouveautés.</p></div>
+      <div class="prob reveal d1"><div class="n" aria-hidden="true">ii</div><h3 class="profile-dynamic" data-p-key="problem.items.1.title">Vos clientes sont sollicitées partout</h3><p class="profile-dynamic" data-p-key="problem.items.1.text">Réseaux sociaux, publicités, influenceuses, Google… entre deux rendez-vous, de nombreuses marques cherchent à attirer leur attention.</p></div>
+      <div class="prob reveal d2"><div class="n" aria-hidden="true">iii</div><h3 class="profile-dynamic" data-p-key="problem.items.2.title">Vos offres doivent arriver au bon moment</h3><p class="profile-dynamic" data-p-key="problem.items.2.text">Un nouveau soin, un produit ou une offre n'a d'impact que si votre cliente le découvre lorsqu'elle en a besoin.</p></div>
+      <div class="prob reveal d3"><div class="n" aria-hidden="true">iv</div><h3 class="profile-dynamic" data-p-key="problem.items.3.title">Votre expertise mérite de rester présente</h3><p class="profile-dynamic" data-p-key="problem.items.3.text">Vous connaissez vos clientes, leurs besoins et leurs habitudes. Cette relation ne devrait pas disparaître entre deux visites.</p></div>
     </div>
     <p class="reveal d3" style="text-align:center; margin:52px auto 0; font-size:19px; color:#FFFFFF; max-width:640px; font-family:'Cormorant Garamond','Times New Roman',serif; font-style:italic; font-weight:400; line-height:1.4">La fidélité ne se construit pas uniquement pendant un rendez-vous. Elle se construit aussi entre deux rendez-vous.</p>
     <div class="reveal d4" style="max-width:640px; margin:40px auto 0; padding-top:36px; border-top:1px solid rgba(255,255,255,.14); text-align:center">
@@ -119,20 +130,20 @@
 <section class="sec" data-screen-label="Référence beauté">
   <div class="wrap sol-grid">
     <div>
-      <span class="eyebrow reveal">L'idée Milappli</span>
-      <h2 class="sec-title reveal d1" style="margin-top:18px">Et si l'influenceuse beauté de vos clientes… <span class="serif">c'était vous ?</span></h2>
-      <p class="lead reveal d2" style="margin-top:22px; font-size:17px">Chaque jour, vos clientes découvrent des conseils, des produits et des routines auprès de personnes qui ne les connaissent pas. Pourtant, vous connaissez leur peau, leurs habitudes, leurs objectifs et les soins qu'elles réalisent.</p>
-      <p class="lead reveal d3" style="margin-top:18px; font-size:17px"><strong style="color:var(--ink); font-weight:500">Avec Milappli, reprenez votre place de référence beauté.</strong> Partagez vos conseils, vos recommandations, vos nouveautés et votre expertise directement dans l'univers de votre institut. Vos clientes savent où retrouver une information fiable : auprès de la professionnelle qui les connaît réellement.</p>
+      <span class="eyebrow reveal profile-dynamic" data-p-key="reference.eyebrow">L'idée Milappli</span>
+      <h2 class="sec-title reveal d1 profile-dynamic" style="margin-top:18px" data-p-key="reference.title" data-p-html="true">Et si l'influenceuse beauté de vos clientes… <span class="serif">c'était vous ?</span></h2>
+      <p class="lead reveal d2 profile-dynamic" style="margin-top:22px; font-size:17px" data-p-key="reference.lead1">Chaque jour, vos clientes découvrent des conseils, des produits et des routines auprès de personnes qui ne les connaissent pas. Pourtant, vous connaissez leur peau, leurs habitudes, leurs objectifs et les soins qu'elles réalisent.</p>
+      <p class="lead reveal d3 profile-dynamic" style="margin-top:18px; font-size:17px" data-p-key="reference.lead2" data-p-html="true"><strong style="color:var(--ink); font-weight:500">Avec Milappli, reprenez votre place de référence beauté.</strong> Partagez vos conseils, vos recommandations, vos nouveautés et votre expertise directement dans l'univers de votre institut. Vos clientes savent où retrouver une information fiable : auprès de la professionnelle qui les connaît réellement.</p>
     </div>
     <div class="sol-visual reveal d1">
       <div class="phone">
         <div class="notch"></div>
         <div class="screen"><div class="app-mock" aria-hidden="true">
           <div class="am-status"><span>9:41</span><span class="am-batt"></span></div>
-          <div class="am-header"><div class="am-logo">M</div><div><div class="am-h-t">Conseils</div><div class="am-h-s">Votre référence beauté</div></div></div>
+          <div class="am-header"><div class="am-logo">M</div><div><div class="am-h-t profile-dynamic" data-p-key="reference.mockHeaderTitle">Conseils</div><div class="am-h-s profile-dynamic" data-p-key="reference.mockHeaderSub">Votre référence beauté</div></div></div>
           <div class="am-body">
-            <div class="am-post"><div class="am-p-img" aria-hidden="true">a</div><div class="am-p-t">3 gestes pour prolonger votre soin éclat</div><div class="am-p-s">Les conseils de votre institut pour une peau lumineuse toute la semaine.</div><span class="am-p-link">Lire →</span></div>
-            <div class="am-post"><div class="am-p-img" aria-hidden="true">b</div><div class="am-p-t">Notre nouvelle routine anti-âge</div><div class="am-p-s">Découvrez le protocole recommandé par votre esthéticienne.</div><span class="am-p-link">Lire →</span></div>
+            <div class="am-post"><div class="am-p-img" aria-hidden="true">a</div><div class="am-p-t profile-dynamic" data-p-key="reference.post1Title">3 gestes pour prolonger votre soin éclat</div><div class="am-p-s profile-dynamic" data-p-key="reference.post1Sub">Les conseils de votre institut pour une peau lumineuse toute la semaine.</div><span class="am-p-link">Lire →</span></div>
+            <div class="am-post"><div class="am-p-img" aria-hidden="true">b</div><div class="am-p-t profile-dynamic" data-p-key="reference.post2Title">Notre nouvelle routine anti-âge</div><div class="am-p-s profile-dynamic" data-p-key="reference.post2Sub">Découvrez le protocole recommandé par votre esthéticienne.</div><span class="am-p-link">Lire →</span></div>
           </div>
         </div></div>
       </div>
@@ -279,16 +290,16 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow reveal">Ce que ça change</span>
-      <h2 class="sec-title reveal d1" style="margin-top:18px">Une relation plus forte. Une clientèle <span class="serif">qui revient naturellement.</span></h2>
-      <p class="lead reveal d2">Milappli ne cherche pas à vous apporter de nouvelles clientes. L'objectif est de mieux exploiter et fidéliser celle que vous possédez déjà.</p>
+      <h2 class="sec-title reveal d1 profile-dynamic" style="margin-top:18px" data-p-key="benefits.title" data-p-html="true">Une relation plus forte. Une clientèle <span class="serif">qui revient naturellement.</span></h2>
+      <p class="lead reveal d2 profile-dynamic" data-p-key="benefits.lead">Milappli ne cherche pas à vous apporter de nouvelles clientes. L'objectif est de mieux exploiter et fidéliser celle que vous possédez déjà.</p>
     </div>
     <div class="ben-grid">
-      <div class="ben reveal"><div class="ic" aria-hidden="true">a</div><h3>Plus de <em>rendez-vous</em></h3><p>Une cliente qui pense régulièrement à son institut pense plus facilement à reprendre rendez-vous.</p></div>
-      <div class="ben reveal d1"><div class="ic" aria-hidden="true">b</div><h3>Plus de soins et de <em>cures terminées</em></h3><p>Le suivi et la présence régulière favorisent le retour des clientes jusqu'au bout de leur parcours.</p></div>
-      <div class="ben reveal d2"><div class="ic" aria-hidden="true">c</div><h3>Plus de <em>ventes de produits</em></h3><p>Vos conseils prolongent le soin et facilitent la recommandation de produits adaptés.</p></div>
-      <div class="ben reveal"><div class="ic" aria-hidden="true">d</div><h3>Plus de <em>fidélité</em></h3><p>La cliente ne voit plus votre institut comme un lieu ponctuel, mais comme sa référence beauté.</p></div>
-      <div class="ben reveal d1"><div class="ic" aria-hidden="true">e</div><h3>Une relation <em>directe</em></h3><p>Vous communiquez avec votre propre clientèle sans dépendre entièrement d'un réseau social externe, et sans coût supplémentaire.</p></div>
-      <div class="ben reveal d2"><div class="ic" aria-hidden="true">f</div><h3>Une image <em>plus premium</em></h3><p>Une application à votre nom rassure et crédibilise votre institut auprès de vos clientes.</p></div>
+      <div class="ben reveal"><div class="ic" aria-hidden="true">a</div><h3 class="profile-dynamic" data-p-key="benefits.items.0.title" data-p-html="true">Plus de <em>rendez-vous</em></h3><p class="profile-dynamic" data-p-key="benefits.items.0.text">Une cliente qui pense régulièrement à son institut pense plus facilement à reprendre rendez-vous.</p></div>
+      <div class="ben reveal d1"><div class="ic" aria-hidden="true">b</div><h3 class="profile-dynamic" data-p-key="benefits.items.1.title" data-p-html="true">Plus de soins et de <em>cures terminées</em></h3><p class="profile-dynamic" data-p-key="benefits.items.1.text">Le suivi et la présence régulière favorisent le retour des clientes jusqu'au bout de leur parcours.</p></div>
+      <div class="ben reveal d2"><div class="ic" aria-hidden="true">c</div><h3 class="profile-dynamic" data-p-key="benefits.items.2.title" data-p-html="true">Plus de <em>ventes de produits</em></h3><p class="profile-dynamic" data-p-key="benefits.items.2.text">Vos conseils prolongent le soin et facilitent la recommandation de produits adaptés.</p></div>
+      <div class="ben reveal"><div class="ic" aria-hidden="true">d</div><h3 class="profile-dynamic" data-p-key="benefits.items.3.title" data-p-html="true">Plus de <em>fidélité</em></h3><p class="profile-dynamic" data-p-key="benefits.items.3.text">La cliente ne voit plus votre institut comme un lieu ponctuel, mais comme sa référence beauté.</p></div>
+      <div class="ben reveal d1"><div class="ic" aria-hidden="true">e</div><h3 class="profile-dynamic" data-p-key="benefits.items.4.title" data-p-html="true">Une relation <em>directe</em></h3><p class="profile-dynamic" data-p-key="benefits.items.4.text">Vous communiquez avec votre propre clientèle sans dépendre entièrement d'un réseau social externe, et sans coût supplémentaire.</p></div>
+      <div class="ben reveal d2"><div class="ic" aria-hidden="true">f</div><h3 class="profile-dynamic" data-p-key="benefits.items.5.title" data-p-html="true">Une image <em>plus premium</em></h3><p class="profile-dynamic" data-p-key="benefits.items.5.text">Une application à votre nom rassure et crédibilise votre institut auprès de vos clientes.</p></div>
     </div>
   </div>
 </section>
@@ -335,20 +346,20 @@
 <section class="sec" id="features" data-screen-label="Fonctionnalités">
   <div class="wrap">
     <div class="sec-head">
-      <span class="eyebrow reveal">Fonctionnalités</span>
-      <h2 class="sec-title reveal d1" style="margin-top:18px">Tout ce dont votre institut <span class="serif">a besoin.</span></h2>
-      <p class="lead reveal d2">Une application complète, pensée pour améliorer l'expérience cliente et simplifier votre communication au quotidien.</p>
+      <span class="eyebrow reveal profile-dynamic" data-p-key="features.eyebrow">Fonctionnalités</span>
+      <h2 class="sec-title reveal d1 profile-dynamic" style="margin-top:18px" data-p-key="features.title" data-p-html="true">Tout ce dont votre institut <span class="serif">a besoin.</span></h2>
+      <p class="lead reveal d2 profile-dynamic" data-p-key="features.lead">Une application complète, pensée pour améliorer l'expérience cliente et simplifier votre communication au quotidien.</p>
     </div>
     <div class="feat-grid">
-      <div class="feat reveal"><div class="ic" aria-hidden="true">a</div><h4>Historique des soins</h4><p>Chaque cliente retrouve facilement ses soins réalisés et ses recommandations.</p></div>
-      <div class="feat reveal d1"><div class="ic" aria-hidden="true">b</div><h4>Suivi des forfaits</h4><p>Séances utilisées et restantes visibles en un coup d'œil.</p></div>
-      <div class="feat reveal d2"><div class="ic" aria-hidden="true">c</div><h4>Promotions</h4><p>Vos offres mises en avant au bon moment, au bon endroit.</p></div>
-      <div class="feat reveal"><div class="ic" aria-hidden="true">d</div><h4>Notifications push</h4><p>Rappels, actualités et promotions directement sur le téléphone.</p></div>
-      <div class="feat reveal d1"><div class="ic" aria-hidden="true">e</div><h4>Conseils personnalisés</h4><p>Vos recommandations prolongent l'expérience entre deux rendez-vous.</p></div>
-      <div class="feat reveal d2"><div class="ic" aria-hidden="true">f</div><h4>Espace cliente</h4><p>Un espace clair où chaque cliente retrouve l'essentiel.</p></div>
-      <div class="feat reveal"><div class="ic" aria-hidden="true">g</div><h4>Réservation / agenda</h4><p>Une prise de rendez-vous plus fluide selon la formule choisie.</p></div>
-      <div class="feat reveal d1"><div class="ic" aria-hidden="true">h</div><h4>Automatisations marketing</h4><p>Relances et campagnes pour garder le lien sans y passer des heures.</p></div>
-      <div class="feat reveal d2"><div class="ic" aria-hidden="true">i</div><h4>Support</h4><p>Un accompagnement humain pour vous aider à prendre en main la solution.</p></div>
+      <div class="feat reveal"><div class="ic" aria-hidden="true">a</div><h4 class="profile-dynamic" data-p-key="features.items.0.title">Historique des soins</h4><p class="profile-dynamic" data-p-key="features.items.0.text">Chaque cliente retrouve facilement ses soins réalisés et ses recommandations.</p></div>
+      <div class="feat reveal d1"><div class="ic" aria-hidden="true">b</div><h4 class="profile-dynamic" data-p-key="features.items.1.title">Suivi des forfaits</h4><p class="profile-dynamic" data-p-key="features.items.1.text">Séances utilisées et restantes visibles en un coup d'œil.</p></div>
+      <div class="feat reveal d2"><div class="ic" aria-hidden="true">c</div><h4 class="profile-dynamic" data-p-key="features.items.2.title">Promotions</h4><p class="profile-dynamic" data-p-key="features.items.2.text">Vos offres mises en avant au bon moment, au bon endroit.</p></div>
+      <div class="feat reveal"><div class="ic" aria-hidden="true">d</div><h4 class="profile-dynamic" data-p-key="features.items.3.title">Notifications push</h4><p class="profile-dynamic" data-p-key="features.items.3.text">Rappels, actualités et promotions directement sur le téléphone.</p></div>
+      <div class="feat reveal d1"><div class="ic" aria-hidden="true">e</div><h4 class="profile-dynamic" data-p-key="features.items.4.title">Conseils personnalisés</h4><p class="profile-dynamic" data-p-key="features.items.4.text">Vos recommandations prolongent l'expérience entre deux rendez-vous.</p></div>
+      <div class="feat reveal d2"><div class="ic" aria-hidden="true">f</div><h4 class="profile-dynamic" data-p-key="features.items.5.title">Espace cliente</h4><p class="profile-dynamic" data-p-key="features.items.5.text">Un espace clair où chaque cliente retrouve l'essentiel.</p></div>
+      <div class="feat reveal"><div class="ic" aria-hidden="true">g</div><h4 class="profile-dynamic" data-p-key="features.items.6.title">Réservation / agenda</h4><p class="profile-dynamic" data-p-key="features.items.6.text">Une prise de rendez-vous plus fluide selon la formule choisie.</p></div>
+      <div class="feat reveal d1"><div class="ic" aria-hidden="true">h</div><h4 class="profile-dynamic" data-p-key="features.items.7.title">Automatisations marketing</h4><p class="profile-dynamic" data-p-key="features.items.7.text">Relances et campagnes pour garder le lien sans y passer des heures.</p></div>
+      <div class="feat reveal d2"><div class="ic" aria-hidden="true">i</div><h4 class="profile-dynamic" data-p-key="features.items.8.title">Support</h4><p class="profile-dynamic" data-p-key="features.items.8.text">Un accompagnement humain pour vous aider à prendre en main la solution.</p></div>
     </div>
   </div>
 </section>
@@ -473,27 +484,27 @@
     <div class="sec-head">
       <span class="eyebrow reveal">Nos offres</span>
       <h2 class="sec-title reveal d1" style="margin-top:18px">Deux formules, <span class="serif">une seule exigence.</span></h2>
-      <p class="lead reveal d2">Choisissez le niveau d'accompagnement adapté à votre institut. Tarif établi sur devis.</p>
+      <p class="lead reveal d2 profile-dynamic" data-p-key="offers.lead">Choisissez le niveau d'accompagnement adapté à votre institut. Tarif établi sur devis.</p>
     </div>
     <div class="offers-grid">
       <div class="offer reveal">
         <div class="o-head"><span class="o-name">Essential</span><span class="o-tag">L'essentiel</span></div>
-        <p class="o-sub">Idéal pour les instituts qui veulent renforcer leur image, fidéliser leurs clientes et rester visibles entre deux rendez-vous.</p>
+        <p class="o-sub profile-dynamic" data-p-key="offers.essential.sub">Idéal pour les instituts qui veulent renforcer leur image, fidéliser leurs clientes et rester visibles entre deux rendez-vous.</p>
         <div class="o-price">Sur devis</div>
         <ul>
           <li>Application personnalisée</li>
-          <li>Espace cliente</li>
-          <li>Historique des soins</li>
+          <li class="profile-dynamic" data-p-key="offers.essential.espaceItem">Espace cliente</li>
+          <li class="profile-dynamic" data-p-key="offers.essential.historiqueItem">Historique des soins</li>
           <li>Suivi des forfaits</li>
           <li>Promotions</li>
           <li>Notifications push</li>
           <li>Support</li>
         </ul>
-        <a class="cta block lg" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Demander une démo <span class="arrow">→</span></a>
+        <a class="cta block lg" href="#contact" data-contact-subject="demo">Demander une démo <span class="arrow">→</span></a>
       </div>
       <div class="offer featured reveal d1">
         <div class="o-head"><span class="o-name">Premium</span><span class="o-tag">Le plus complet</span></div>
-        <p class="o-sub">Idéal pour les instituts qui veulent aller plus loin avec réservation, agenda et automatisations marketing.</p>
+        <p class="o-sub profile-dynamic" data-p-key="offers.premium.sub">Idéal pour les instituts qui veulent aller plus loin avec réservation, agenda et automatisations marketing.</p>
         <div class="o-price">Sur devis</div>
         <ul>
           <li class="head-row">Tout Essential, et&nbsp;:</li>
@@ -506,7 +517,7 @@
           <li>Outils de fidélisation avancés</li>
           <li>Suivi et accompagnement renforcés</li>
         </ul>
-        <a class="cta block lg" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20devis%20Milappli">Recevoir mon devis personnalisé <span class="arrow">→</span></a>
+        <a class="cta block lg" href="#contact" data-contact-subject="devis">Recevoir mon devis personnalisé <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -526,7 +537,7 @@
         <h2>Un tarif <span class="serif">juste,</span> à votre mesure.</h2>
         <p>Le prix dépend de vos besoins réels. Nous en discutons ensemble lors de la démonstration.</p>
         <p style="font-size:13.5px; color:rgba(255,255,255,.55); margin-top:14px">Vous recevez une proposition claire avant tout engagement.</p>
-        <div class="dc-cta"><a class="cta lg" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20devis%20Milappli">Recevoir mon devis personnalisé <span class="arrow">→</span></a></div>
+        <div class="dc-cta"><a class="cta lg" href="#contact" data-contact-subject="devis">Recevoir mon devis personnalisé <span class="arrow">→</span></a></div>
       </div>
       <ul class="factors">
         <li><span class="ic" aria-hidden="true">a</span>Votre nombre de clientes</li>
@@ -548,7 +559,7 @@
         <p style="font-size:14.5px; margin-top:14px">Vous connaissez le monde de la beauté et du bien-être ? Rejoignez notre réseau de partenaires indépendants et présentez Milappli aux instituts de votre région.</p>
       </div>
       <div class="r">
-        <a class="cta" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Candidature%20partenaire%20Milappli">Devenir partenaire <span class="arrow">→</span></a>
+        <a class="cta" href="#contact" data-contact-subject="partenaire">Devenir partenaire <span class="arrow">→</span></a>
         <p class="micro">Pour les profils commerciaux indépendants en France, Belgique, Suisse et Luxembourg.</p>
       </div>
     </div>
@@ -563,15 +574,15 @@
       <h2 class="sec-title reveal d1" style="margin-top:18px; font-size:44px">Vos questions, <span class="serif">nos réponses.</span></h2>
     </div>
     <div class="faq-list reveal d1">
-      <details><summary>Combien de temps faut-il pour lancer l'application ?</summary><p class="ans">Le délai dépend du niveau de personnalisation et des éléments transmis par l'institut. Une fois les contenus reçus, nous vous accompagnons dans une mise en place progressive et claire.</p></details>
+      <details><summary>Combien de temps faut-il pour lancer l'application ?</summary><p class="ans profile-dynamic" data-p-key="faq.installDelay">Le délai dépend du niveau de personnalisation et des éléments transmis par l'institut. Une fois les contenus reçus, nous vous accompagnons dans une mise en place progressive et claire.</p></details>
       <details><summary>Y a-t-il un engagement ?</summary><p class="ans">Les conditions dépendent de la formule choisie. Elles sont toujours précisées clairement dans votre devis et votre contrat avant validation.</p></details>
       <details><summary>Puis-je arrêter quand je veux ?</summary><p class="ans">Les modalités de résiliation sont définies dans votre contrat selon l'offre choisie. Tout est expliqué avant signature, sans surprise.</p></details>
       <details><summary>Qui publie l'application sur les stores ?</summary><p class="ans">Nous vous accompagnons dans la mise en ligne et les étapes nécessaires à la publication.</p></details>
-      <details><summary>Puis-je avoir mon logo et mes couleurs ?</summary><p class="ans">Oui. La personnalisation est au cœur de Milappli : votre logo, vos couleurs et vos contenus sont intégrés pour créer une expérience cohérente avec votre institut.</p></details>
-      <details><summary>Mes clientes doivent-elles télécharger l'application ?</summary><p class="ans">Oui, l'objectif est de leur offrir un espace simple et pratique pour retrouver votre institut, vos offres, leurs forfaits et vos conseils.</p></details>
+      <details><summary>Puis-je avoir mon logo et mes couleurs ?</summary><p class="ans profile-dynamic" data-p-key="faq.branding">Oui. La personnalisation est au cœur de Milappli : votre logo, vos couleurs et vos contenus sont intégrés pour créer une expérience cohérente avec votre institut.</p></details>
+      <details><summary class="profile-dynamic" data-p-key="faq.clientDownloadQ">Mes clientes doivent-elles télécharger l'application ?</summary><p class="ans profile-dynamic" data-p-key="faq.clientDownloadA">Oui, l'objectif est de leur offrir un espace simple et pratique pour retrouver votre institut, vos offres, leurs forfaits et vos conseils.</p></details>
       <details><summary>Puis-je connecter mon agenda ?</summary><p class="ans">Selon la formule choisie, l'agenda et la réservation peuvent être intégrés pour faciliter la prise de rendez-vous.</p></details>
       <details><summary>Quelles automatisations marketing sont disponibles ?</summary><p class="ans">Selon la formule choisie, vous pouvez mettre en place des relances, notifications, campagnes personnalisées et parcours clients automatisés.</p></details>
-      <details><summary>Mes clientes doivent-elles payer ?</summary><p class="ans">Non, l'application est pensée pour être mise à disposition de vos clientes par votre institut.</p></details>
+      <details><summary class="profile-dynamic" data-p-key="faq.clientPayQ">Mes clientes doivent-elles payer ?</summary><p class="ans profile-dynamic" data-p-key="faq.clientPayA">Non, l'application est pensée pour être mise à disposition de vos clientes par votre institut.</p></details>
     </div>
   </div>
 </section>
@@ -587,6 +598,16 @@
     <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-card reveal d2" id="contactForm">
       <input type="hidden" name="form-name" value="contact" />
       <p class="hidden"><label>Ne pas remplir : <input name="bot-field" /></label></p>
+      <div class="field">
+        <label for="contact-subject">Objet de la demande</label>
+        <select id="contact-subject" name="subject" required>
+          <option value="" disabled selected>Sélectionnez un objet</option>
+          <option value="Demande de démo">Demande de démo</option>
+          <option value="Demande de devis">Demande de devis</option>
+          <option value="Devenir partenaire">Devenir partenaire</option>
+          <option value="Autre demande">Autre demande</option>
+        </select>
+      </div>
       <div class="field">
         <label for="contact-name">Nom</label>
         <input type="text" id="contact-name" name="name" autocomplete="name" required>
@@ -611,7 +632,7 @@
     <h2 class="reveal">Ne soyez plus seulement l'esthéticienne de vos clientes.<br>Devenez leur <span class="serif">référence beauté.</span></h2>
     <p class="reveal d1">Transformez chaque rendez-vous en une relation qui continue bien après le soin.</p>
     <div class="actions reveal d2">
-      <a class="cta lg" href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Demander une démo <span class="arrow">→</span></a>
+      <a class="cta lg" href="#contact" data-contact-subject="demo">Demander une démo <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
@@ -624,10 +645,10 @@
     <div class="foot">
       <div>
         <a class="brand" href="#top"><span class="mil">mil</span><span class="appli">appli</span></a>
-        <p class="brand-desc">Des applications mobiles personnalisées pour les instituts de beauté, spas et centres esthétiques. France · Belgique · Suisse · Luxembourg.</p>
+        <p class="brand-desc profile-dynamic" data-p-key="footer.brandDesc">Des applications mobiles personnalisées pour les instituts de beauté, spas et centres esthétiques. France · Belgique · Suisse · Luxembourg.</p>
       </div>
-      <div><h6>Produit</h6><ul><li><a href="#solution">Solution</a></li><li><a href="#features">Fonctionnalités</a></li><li><a href="#offres">Offres</a></li><li><a href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Demande%20de%20d%C3%A9mo%20Milappli">Démo</a></li><li><a href="#faq">FAQ</a></li></ul></div>
-      <div><h6>Société</h6><ul><li><a href="#contact">Contact</a></li><li><a href="mailto:EMAIL_A_COMPLETER@milappli.fr?subject=Candidature%20partenaire%20Milappli">Devenir partenaire</a></li></ul></div>
+      <div><h6>Produit</h6><ul><li><a href="#solution">Solution</a></li><li><a href="#features">Fonctionnalités</a></li><li><a href="#offres">Offres</a></li><li><a href="#contact" data-contact-subject="demo">Démo</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div><h6>Société</h6><ul><li><a href="#contact">Contact</a></li><li><a href="#contact" data-contact-subject="partenaire">Devenir partenaire</a></li></ul></div>
       <div><h6>Légal</h6><ul><li><span class="foot-soon">Mentions légales</span></li><li><span class="foot-soon">Politique de confidentialité</span></li><li><span class="foot-soon">Conditions générales</span></li></ul></div>
     </div>
     <div class="legal">
@@ -638,6 +659,7 @@
 </footer>
 
 
+<script src="js/profile.js" defer></script>
 <script src="js/script.js" defer></script>
 </body>
 </html>

@@ -29,6 +29,22 @@
     });
   });
 
+  const CONTACT_SUBJECTS = {
+    demo: 'Demande de démo',
+    devis: 'Demande de devis',
+    partenaire: 'Devenir partenaire'
+  };
+  document.querySelectorAll('[data-contact-subject]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const subject = CONTACT_SUBJECTS[el.dataset.contactSubject];
+      const select = document.getElementById('contact-subject');
+      if(!select || !subject) return;
+      select.value = subject;
+      select.classList.add('is-preselected');
+      window.setTimeout(()=> select.classList.remove('is-preselected'), 1400);
+    });
+  });
+
   const contactForm = document.getElementById('contactForm');
   const contactMsg = document.getElementById('contactFormMsg');
   contactForm?.addEventListener('submit', (e)=>{
