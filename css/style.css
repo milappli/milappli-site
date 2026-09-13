@@ -503,6 +503,23 @@
   .devis-card .dc-cta{margin-top:30px}
   .devis-card .cta{background:#fff; color:var(--burgundy)} .devis-card .cta .arrow{background:var(--burgundy); color:#fff}
 
+  /* ---------- CONTACT ---------- */
+  .contact-wrap{max-width:640px}
+  .contact-card{background:var(--card); border:1px solid var(--line); border-radius:28px; padding:42px 40px; box-shadow:var(--shadow-xs); display:flex; flex-direction:column; gap:20px}
+  .contact-card .field{display:flex; flex-direction:column; gap:8px}
+  .contact-card label{font-size:13px; font-weight:600; color:var(--ink-2)}
+  .contact-card input[type="text"], .contact-card input[type="email"], .contact-card textarea{
+    font-family:inherit; font-size:15px; color:var(--ink); background:var(--bg); border:1px solid var(--line);
+    border-radius:14px; padding:13px 16px; outline:none; transition:border-color .25s, box-shadow .25s;
+  }
+  .contact-card input:focus, .contact-card textarea:focus{border-color:var(--burgundy); box-shadow:0 0 0 3px rgba(91,64,73,.12)}
+  .contact-card textarea{resize:vertical; min-height:120px}
+  .contact-card button{align-self:flex-start}
+  .contact-card .hidden{position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden}
+  .form-msg{font-size:14px; margin:0; min-height:1.2em}
+  .form-msg.is-success{color:#2E7D46}
+  .form-msg.is-error{color:#B3261E}
+
   /* ---------- RESPONSIVE ---------- */
   @media(max-width:1080px){
     h2.sec-title{font-size:44px} .hero h1{font-size:52px} .final h2{font-size:46px} .partner h2{font-size:38px}
