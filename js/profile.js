@@ -140,6 +140,8 @@
         tagName: "Wishlist de Camille"
       },
       results: {
+        title: 'Une relation qui <span class="serif">se voit.</span>',
+        lead: "Le lien que vous entretenez entre deux rendez-vous finit toujours par se voir.",
         items: {
           0: '<strong>Plus de clientes qui reviennent :</strong> le lien entretenu entre deux rendez-vous se traduit naturellement en nouvelles visites.',
           1: '<strong>Une clientèle plus engagée :</strong> vos clientes suivent leurs forfaits, vos actualités et vos conseils au quotidien.',
@@ -319,8 +321,8 @@
         }
       },
       wishlist: {
-        title: "Reprenez votre place dans le conseil et la vente",
-        lead: "Vous êtes la personne qui connaît réellement les cheveux de votre cliente.<br><br>Pourtant, une partie importante de ses achats capillaires peut aujourd'hui se faire ailleurs : sites Internet, réseaux sociaux, recommandations extérieures ou vente directe.<br><br>Chaque produit acheté ailleurs est une vente que votre expertise aurait pu générer.<br><br>Milappli vous permet de prolonger votre diagnostic et vos conseils après le rendez-vous : recommandations personnalisées, routines, produits adaptés, nouveautés et conseils d'entretien.<br><br>Vous ne vendez plus simplement un produit. Vous poursuivez l'accompagnement commencé au salon.",
+        title: 'Ses envies, <span class="serif">déjà toutes trouvées.</span>',
+        lead: "Votre client compose sa wishlist au fil de ses envies — coupes, produits ou prestations. Lorsqu'un proche souhaite lui faire plaisir, il peut la consulter et choisir directement ce qui lui correspond.",
         step1: "Il découvre",
         step2: "Il ajoute à sa wishlist",
         step4: "Votre salon, destination cadeau",
@@ -333,6 +335,8 @@
         tagName: "Wishlist de Thomas"
       },
       results: {
+        title: 'Reprenez votre place dans le <span class="serif">conseil et la vente.</span>',
+        lead: "Vous êtes la personne qui connaît réellement les cheveux de votre cliente.<br><br>Pourtant, une partie importante de ses achats capillaires peut aujourd'hui se faire ailleurs : sites Internet, réseaux sociaux, recommandations extérieures ou vente directe.<br><br>Chaque produit acheté ailleurs est une vente que votre expertise aurait pu générer.<br><br>Milappli vous permet de prolonger votre diagnostic et vos conseils après le rendez-vous : recommandations personnalisées, routines, produits adaptés, nouveautés et conseils d'entretien.<br><br>Vous ne vendez plus simplement un produit. Vous poursuivez l'accompagnement commencé au salon.",
         items: {
           0: '<strong>Plus de clients qui reviennent :</strong> le lien entretenu entre deux rendez-vous se traduit naturellement en nouvelles visites.',
           1: '<strong>Une clientèle plus engagée :</strong> vos clients suivent leurs forfaits, vos actualités et vos conseils au quotidien.',
