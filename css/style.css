@@ -184,9 +184,8 @@
   @media(min-width:1320px){.nav{margin-left:auto;margin-right:auto}}
   .nav-outer{padding:0 40px}
   .nav.scrolled{background:rgba(251,250,247,.9); box-shadow:0 10px 30px -18px rgba(44,56,57,.2), 0 1px 0 rgba(255,255,255,.6) inset}
-  .brand{display:inline-flex; align-items:baseline; gap:0; color:var(--ink); text-decoration:none; line-height:1; font-size:24px; transition:opacity .3s var(--ease)}
-  .brand .mil{font-family:"Cormorant Garamond","Times New Roman",serif; font-style:italic; font-weight:400; letter-spacing:-0.005em}
-  .brand .appli{font-family:"DM Sans",sans-serif; font-weight:700; letter-spacing:-0.035em; margin-left:1px}
+  .brand{display:inline-flex; align-items:center; color:var(--ink); text-decoration:none; line-height:1; transition:opacity .3s var(--ease)}
+  .brand-img{height:28px; width:auto; display:block}
   .brand:hover{opacity:.7}
   .nav ul{list-style:none; padding:0; margin:0; display:flex; gap:34px}
   .nav ul a{color:var(--ink-2); text-decoration:none; font-size:13.5px; font-weight:500; position:relative; padding:6px 0; transition:color .25s var(--ease)}
