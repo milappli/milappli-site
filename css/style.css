@@ -393,7 +393,6 @@
   .foot ul{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:11px}
   .foot a{color:rgba(255,255,255,.65); text-decoration:none; font-size:14px; transition:color .2s, transform .2s; display:inline-block}
   .foot a:hover{color:#fff; transform:translateX(2px)}
-  .foot-soon{color:rgba(255,255,255,.35); font-size:14px; display:inline-block; cursor:default}
   .legal{display:flex; justify-content:space-between; align-items:center; padding-top:24px; font-size:12.5px; color:rgba(255,255,255,.5); flex-wrap:wrap; gap:12px}
   .legal .made{font-family:"Cormorant Garamond","Times New Roman",serif; font-style:italic}
   .zones{font-size:12.5px; color:rgba(255,255,255,.55); display:flex; gap:18px}
@@ -540,6 +539,29 @@
   .form-msg.is-success{color:#2E7D46}
   .form-msg.is-error{color:#B3261E}
 
+  /* ---------- LEGAL PAGES ---------- */
+  .legal-hero{padding:150px 0 50px}
+  .legal-hero .wrap{max-width:760px}
+  .legal-back{display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:600; color:var(--ink-2); text-decoration:none; transition:color .25s var(--ease)}
+  .legal-back:hover{color:var(--burgundy)}
+  .legal-hero h1{font-family:"Cormorant Garamond",serif; font-size:46px; line-height:1.05; letter-spacing:-0.02em; font-weight:500; margin:20px 0 0; color:var(--ink)}
+  .legal-hero .updated{margin-top:14px; font-size:13.5px; color:var(--ink-3)}
+  .legal-content{padding:0 0 110px}
+  .legal-content .wrap{max-width:760px}
+  .legal-content section{margin-top:50px; scroll-margin-top:100px}
+  .legal-content section:first-of-type{margin-top:8px}
+  .legal-content h2{font-family:"Cormorant Garamond",serif; font-size:26px; font-weight:500; letter-spacing:-0.01em; color:var(--ink); margin:0 0 16px}
+  .legal-content h3{font-size:14.5px; font-weight:600; color:var(--ink); margin:22px 0 8px; letter-spacing:-0.005em}
+  .legal-content p{font-size:15.5px; line-height:1.7; color:var(--ink-2); margin:0 0 14px}
+  .legal-content p:last-child{margin-bottom:0}
+  .legal-content ul{margin:0 0 14px; padding-left:20px}
+  .legal-content li{font-size:15.5px; line-height:1.7; color:var(--ink-2); margin-bottom:6px}
+  .legal-content a{color:var(--burgundy); text-decoration:underline; text-underline-offset:2px}
+  .legal-card{background:var(--card); border:1px solid var(--line); border-radius:22px; padding:30px 32px; box-shadow:var(--shadow-xs); margin:0 0 14px; display:grid; gap:16px}
+  .legal-card dt{font-size:11.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-3); font-weight:600}
+  .legal-card dd{margin:4px 0 0; font-size:15.5px; color:var(--ink)}
+  .legal-note{font-size:13.5px; color:var(--ink-3); font-style:italic; margin-top:16px}
+
   /* ---------- RESPONSIVE ---------- */
   @media(max-width:1080px){
     h2.sec-title{font-size:44px} .hero h1{font-size:52px} .final h2{font-size:46px} .partner h2{font-size:38px}
@@ -557,6 +579,8 @@
     .nav ul, .nav .right .cta{display:none} .burger{display:inline-flex}
     .wrap{padding:0 24px} .nav-outer{padding:0 20px} .nav{margin:14px 20px 0}
     .sec{padding:72px 0} .hero{padding:50px 0 40px}
+    .legal-hero{padding:120px 0 40px} .legal-hero h1{font-size:36px}
+    .legal-card{padding:24px 22px}
     .hero-grid{grid-template-columns:1fr; gap:36px} .hero h1{font-size:42px} .hero p.sub{max-width:none}
     .profile-switch-tabs{max-width:none} .profile-tab{font-size:12.5px; padding:10px 8px}
     .hero-visual{min-height:auto} .hero-visual .phone{width:260px; height:530px} .hero-visual .phone .screen{height:514px}
