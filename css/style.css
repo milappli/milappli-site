@@ -210,7 +210,7 @@
   .cta.ghost:hover{background:rgba(44,56,57,.04); border-color:rgba(44,56,57,.3)}
   .cta.ghost .arrow{display:none}
   .cta.block{width:100%; justify-content:center; padding:15px 22px}
-  .burger{display:none; width:42px; height:42px; border-radius:999px; border:1px solid var(--line); background:var(--card); cursor:pointer; padding:0; align-items:center; justify-content:center}
+  .burger{display:none; width:44px; height:44px; border-radius:999px; border:1px solid var(--line); background:var(--card); cursor:pointer; padding:0; align-items:center; justify-content:center}
   .burger span{display:block; width:18px; height:1.6px; background:var(--ink); position:relative}
   .burger span::before,.burger span::after{content:""; position:absolute; left:0; right:0; height:1.6px; background:var(--ink); transition:transform .3s, top .3s}
   .burger span::before{top:-6px} .burger span::after{top:6px}
@@ -250,7 +250,7 @@
   .profile-switch-tabs{position:relative; display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:4px; box-shadow:var(--shadow-xs); max-width:460px}
   .profile-switch-tabs::before{content:""; position:absolute; top:4px; left:4px; bottom:4px; width:calc(50% - 4px); border-radius:999px; background:var(--burgundy); transition:transform .35s var(--ease); z-index:0}
   .profile-switch-tabs[data-active="coiffeur"]::before{transform:translateX(100%)}
-  .profile-tab{position:relative; z-index:1; display:flex; align-items:center; justify-content:center; gap:7px; border:none; background:transparent; cursor:pointer; padding:11px 14px; font-family:"DM Sans", sans-serif; font-size:13.5px; font-weight:600; letter-spacing:-0.005em; color:var(--ink-2); border-radius:999px; transition:color .3s var(--ease)}
+  .profile-tab{position:relative; z-index:1; display:flex; align-items:center; justify-content:center; gap:7px; min-height:44px; border:none; background:transparent; cursor:pointer; padding:11px 14px; font-family:"DM Sans", sans-serif; font-size:13.5px; font-weight:600; letter-spacing:-0.005em; color:var(--ink-2); border-radius:999px; transition:color .3s var(--ease)}
   .profile-tab .pt-ic{font-size:13px; opacity:.8}
   .profile-tab[aria-selected="true"]{color:#fff}
   .profile-tab:hover{color:var(--burgundy)}
@@ -367,9 +367,9 @@
 
   /* ---------- FAQ ---------- */
   .faq-grid{display:grid; grid-template-columns:.8fr 1.2fr; gap:60px; align-items:start}
-  .faq-list details{border-top:1px solid var(--line); padding:24px 0; cursor:pointer}
+  .faq-list details{border-top:1px solid var(--line); padding:14px 0; cursor:pointer}
   .faq-list details:last-child{border-bottom:1px solid var(--line)}
-  .faq-list summary{list-style:none; display:flex; justify-content:space-between; align-items:center; gap:24px; font-size:18px; font-weight:500; letter-spacing:-0.015em; color:var(--ink)}
+  .faq-list summary{list-style:none; display:flex; justify-content:space-between; align-items:center; gap:24px; min-height:44px; padding:10px 0; font-size:18px; font-weight:500; letter-spacing:-0.015em; color:var(--ink)}
   .faq-list summary::-webkit-details-marker{display:none}
   .faq-list summary::after{content:"+"; font-family:"Cormorant Garamond","Times New Roman",serif; font-style:italic; font-size:28px; color:var(--burgundy); transition:transform .3s}
   .faq-list details[open] summary::after{transform:rotate(45deg)}
@@ -526,7 +526,7 @@
   .contact-card .field{display:flex; flex-direction:column; gap:8px}
   .contact-card label{font-size:13px; font-weight:600; color:var(--ink-2)}
   .contact-card input[type="text"], .contact-card input[type="email"], .contact-card textarea, .contact-card select{
-    font-family:inherit; font-size:15px; color:var(--ink); background:var(--bg); border:1px solid var(--line);
+    font-family:inherit; font-size:16px; color:var(--ink); background:var(--bg); border:1px solid var(--line);
     border-radius:14px; padding:13px 16px; outline:none; transition:border-color .25s, box-shadow .25s;
   }
   .contact-card select{appearance:none; background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'><path d='M3 5l4 4 4-4' fill='none' stroke='%23736D66' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>"); background-repeat:no-repeat; background-position:right 16px center; padding-right:40px}
@@ -561,7 +561,9 @@
     .profile-switch-tabs{max-width:none} .profile-tab{font-size:12.5px; padding:10px 8px}
     .hero-visual{min-height:auto} .hero-visual .phone{width:260px; height:530px} .hero-visual .phone .screen{height:514px}
     .float-card.one{left:0} .float-card.two{right:0}
-    .sol-grid{grid-template-columns:1fr; gap:44px} .sol-visual{order:-1}
+    .sol-grid{grid-template-columns:1fr; gap:44px} .sol-visual{order:-1; flex-direction:column; gap:14px}
+    .sol-tags{position:static; inset:auto; display:flex; flex-wrap:wrap; justify-content:center; gap:10px; pointer-events:auto}
+    .sol-tag, .sol-tag.a, .sol-tag.b, .sol-tag.c{position:static; top:auto; left:auto; right:auto; bottom:auto}
     .ben-grid, .feat-grid, .prob-grid{grid-template-columns:1fr} .steps{grid-template-columns:1fr; gap:28px}
     .compare-grid{grid-template-columns:1fr}
     .levels-grid{grid-template-columns:1fr}
