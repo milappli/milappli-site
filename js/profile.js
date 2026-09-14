@@ -28,13 +28,14 @@
           { title: "Espace cliente", text: "Un espace clair où chaque cliente retrouve l'essentiel." },
           { title: "Réservation / agenda", text: "Une prise de rendez-vous plus fluide selon la formule choisie." },
           { title: "Automatisations marketing", text: "Relances et campagnes pour garder le lien sans y passer des heures." },
-          { title: "Support", text: "Un accompagnement humain pour vous aider à prendre en main la solution." }
+          { title: "Support", text: "Un accompagnement humain pour vous aider à prendre en main la solution." },
+          { title: "Carte de fidélité", text: "Chaque visite ou achat rapproche votre cliente d'une récompense, sans carte à perdre." }
         ]
       },
       mockup: {
         imgAlt: "Écran d'accueil de l'app - Milappli",
         float1: { title: "Votre soin Éclat vous attend", sub: "notification de votre institut" },
-        float2: { title: "Cure anti-âge", sub: "3 séances restantes" }
+        float2: { title: "Récompense débloquée !", sub: "−15 € sur votre prochaine visite" }
       },
       problem: {
         title: 'Votre relation avec vos clientes ne devrait pas s\'arrêter à la porte de <span class="serif">votre institut.</span>',
@@ -149,10 +150,10 @@
           3: '<strong>Une fréquence de visite plus importante :</strong> les clientes entretiennent leur cure jusqu\'au bout, et les rendez-vous suivants se prennent plus naturellement.',
           4: '<strong>Un fichier client réellement exploité :</strong> les clientes que vous avez déjà reçues restent actives, pas oubliées.'
         },
-        mockSubtitle: "Séances & cures en cours",
-        prog1Title: "Cure anti-âge",
-        prog2Title: "Forfait beauté des mains",
-        promoTitle: "−20% sur les soins du mois"
+        mockSubtitle: "Statut fidélité",
+        prog1Title: "Prochaine récompense",
+        prog2Title: "Statut : Argent",
+        promoTitle: "−15 € de réduction débloqués"
       },
       reflex: {
         title1: 'Lorsqu\'une cliente pense beauté, <span class="serif">où va-t-elle en premier ?</span>',
@@ -171,7 +172,7 @@
         eyebrow: "L'expérience cliente",
         title: 'Découvrez l\'expérience <span class="serif">cliente.</span>',
         card1: { brand: "Institut Lumière", greeting: "Bonjour Camille", hero: "Soin Éclat du mois", caption: "Votre institut, en un geste" },
-        card2: { subtitle: "Séances & cures en cours", prog1: "Cure anti-âge", prog2: "Forfait beauté des mains", captionStrong: "Forfaits & cures" },
+        card2: { subtitle: "Statut fidélité", prog1: "Prochaine récompense", prog2: "Statut : Argent", captionStrong: "Ma fidélité" },
         card3: {
           subtitle: "Votre référence beauté",
           post1Title: "3 gestes pour prolonger votre soin éclat",
@@ -216,20 +217,21 @@
         lead: "Une application complète, pensée pour améliorer l'expérience client et simplifier votre communication au quotidien.",
         items: [
           { title: "Historique des coupes", text: "Chaque client retrouve facilement ses coupes réalisées et vos recommandations." },
-          { title: "Suivi des forfaits", text: "Séances utilisées et restantes visibles en un coup d'œil." },
+          { title: "Suivi des prestations", text: "Historique des prestations réalisées visible en un coup d'œil." },
           { title: "Promotions", text: "Vos offres mises en avant au bon moment, au bon endroit." },
           { title: "Notifications push", text: "Rappels, actualités et promotions directement sur le téléphone." },
           { title: "Conseils personnalisés", text: "Vos recommandations capillaires prolongent l'expérience entre deux rendez-vous." },
           { title: "Espace client", text: "Un espace clair où chaque client retrouve l'essentiel." },
           { title: "Réservation / agenda", text: "Une prise de rendez-vous plus fluide selon la formule choisie." },
           { title: "Automatisations marketing", text: "Relances et campagnes pour garder le lien sans y passer des heures." },
-          { title: "Support", text: "Un accompagnement humain pour vous aider à prendre en main la solution." }
+          { title: "Support", text: "Un accompagnement humain pour vous aider à prendre en main la solution." },
+          { title: "Carte de fidélité", text: "Chaque visite ou achat rapproche votre client d'une récompense, sans carte à perdre." }
         ]
       },
       mockup: {
         imgAlt: "Écran d'accueil de l'app - Milappli",
         float1: { title: "Votre coupe du mois vous attend", sub: "notification de votre salon" },
-        float2: { title: "Forfait coloration", sub: "3 séances restantes" }
+        float2: { title: "Récompense débloquée !", sub: "−15 € sur votre prochaine visite" }
       },
       problem: {
         title: 'Votre relation avec vos clients ne devrait pas s\'arrêter à la porte de <span class="serif">votre salon.</span>',
@@ -258,7 +260,7 @@
         lead: "Un conseil au bon moment peut déclencher un soin.<br>Une inspiration peut provoquer une envie de changement.<br>Une recommandation personnalisée peut générer une vente de produit.<br>Un échange peut faire naître un nouveau rendez-vous.<br><br>Vous ne vous contentez plus d'attendre que votre cliente revienne. Vous restez son coiffeur, son conseiller et son interlocuteur privilégié entre deux rendez-vous.",
         items: [
           { title: "Plus de <em>rendez-vous</em>", text: "Un client qui pense régulièrement à son salon pense plus facilement à reprendre rendez-vous." },
-          { title: "Plus de coupes et de <em>forfaits terminés</em>", text: "Le suivi et la présence régulière favorisent le retour des clients jusqu'au bout de leur parcours." },
+          { title: "Plus de <em>prestations réalisées</em>", text: "Le suivi et la présence régulière favorisent le retour des clients jusqu'au bout de leur parcours." },
           { title: "Plus de <em>ventes de produits</em>", text: "Vos conseils prolongent la coupe et facilitent la recommandation de produits adaptés." },
           { title: "Plus de <em>fidélité</em>", text: "Le client ne voit plus votre salon comme un lieu ponctuel, mais comme sa référence coiffure." },
           { title: "Une relation <em>directe</em>", text: "Vous communiquez avec votre propre clientèle sans dépendre entièrement d'un réseau social externe, et sans coût supplémentaire." },
@@ -280,7 +282,7 @@
         installDelay: "Le délai dépend du niveau de personnalisation et des éléments transmis par le salon. Une fois les contenus reçus, nous vous accompagnons dans une mise en place progressive et claire.",
         branding: "Oui. La personnalisation est au cœur de Milappli : votre logo, vos couleurs et vos contenus sont intégrés pour créer une expérience cohérente avec votre salon.",
         clientDownloadQ: "Mes clients doivent-ils télécharger l'application ?",
-        clientDownloadA: "Oui, l'objectif est de leur offrir un espace simple et pratique pour retrouver votre salon, vos offres, leurs forfaits et vos conseils.",
+        clientDownloadA: "Oui, l'objectif est de leur offrir un espace simple et pratique pour retrouver votre salon, vos offres, leurs rendez-vous et vos conseils.",
         clientPayQ: "Mes clients doivent-ils payer ?",
         clientPayA: "Non, l'application est pensée pour être mise à disposition de vos clients par votre salon."
       },
@@ -316,7 +318,7 @@
         lead: "Toutes vos clientes sont différentes. Pourquoi leur attribuer systématiquement le même temps pour une même prestation ?<br><br>Avec Milappli, le temps nécessaire peut être personnalisé selon chaque cliente, son cheveu et ses habitudes.<br><br>Vous connaissez mieux votre planning, vous anticipez mieux chaque rendez-vous et vous offrez une expérience réellement personnalisée.",
         items: {
           1: { text: "Une interface adaptée à l'univers visuel de votre salon." },
-          2: { text: "Coupes, forfaits, conseils et actualités présentés avec votre ton." },
+          2: { text: "Coupes, prestations, conseils et actualités présentés avec votre ton." },
           3: { text: "Vos clients retrouvent votre salon dans un espace clair, utile et immédiatement reconnaissable." }
         }
       },
@@ -330,7 +332,7 @@
           { title: "Coupe + Brushing", price: "45 €" },
           { title: "Soin Kératine", price: "38 €" },
           { title: "Massage crânien", price: "35 €" },
-          { title: "Forfait couleur", price: "180 €" }
+          { title: "Coloration premium", price: "180 €" }
         ],
         tagName: "Wishlist de Thomas"
       },
@@ -339,15 +341,15 @@
         lead: "Vous êtes la personne qui connaît réellement les cheveux de votre cliente.<br><br>Pourtant, une partie importante de ses achats capillaires peut aujourd'hui se faire ailleurs : sites Internet, réseaux sociaux, recommandations extérieures ou vente directe.<br><br>Chaque produit acheté ailleurs est une vente que votre expertise aurait pu générer.<br><br>Milappli vous permet de prolonger votre diagnostic et vos conseils après le rendez-vous : recommandations personnalisées, routines, produits adaptés, nouveautés et conseils d'entretien.<br><br>Vous ne vendez plus simplement un produit. Vous poursuivez l'accompagnement commencé au salon.",
         items: {
           0: '<strong>Plus de clients qui reviennent :</strong> le lien entretenu entre deux rendez-vous se traduit naturellement en nouvelles visites.',
-          1: '<strong>Une clientèle plus engagée :</strong> vos clients suivent leurs forfaits, vos actualités et vos conseils au quotidien.',
+          1: '<strong>Une clientèle plus engagée :</strong> vos clients suivent leurs rendez-vous, vos actualités et vos conseils au quotidien.',
           2: '<strong>Une relation plus personnelle :</strong> chaque client retrouve son parcours et se sent reconnu, pas seulement servi.',
-          3: '<strong>Une fréquence de visite plus importante :</strong> les clients entretiennent leur forfait jusqu\'au bout, et les rendez-vous suivants se prennent plus naturellement.',
+          3: '<strong>Une fréquence de visite plus importante :</strong> les clients reviennent régulièrement, et les rendez-vous suivants se prennent plus naturellement.',
           4: '<strong>Un fichier client réellement exploité :</strong> les clients que vous avez déjà reçus restent actifs, pas oubliés.'
         },
-        mockSubtitle: "Séances & forfaits en cours",
-        prog1Title: "Forfait coloration",
-        prog2Title: "Forfait brushing",
-        promoTitle: "−20% sur les coupes du mois"
+        mockSubtitle: "Statut fidélité",
+        prog1Title: "Prochaine récompense",
+        prog2Title: "Statut : Argent",
+        promoTitle: "−15 € de réduction débloqués"
       },
       reflex: {
         title1: "Faites de votre expertise leur premier réflexe",
@@ -357,7 +359,7 @@
       how: {
         items: {
           0: { title: 'Découverte de <em>votre salon</em>' },
-          1: { text: "Nous intégrons votre logo, vos couleurs, vos contenus, vos coupes et vos forfaits." },
+          1: { text: "Nous intégrons votre logo, vos couleurs, vos contenus, vos coupes et vos prestations." },
           2: { text: "Votre application est préparée, vérifiée puis mise à disposition de vos clients." },
           3: { text: "Vous êtes accompagné dans la prise en main et les ajustements nécessaires." }
         }
@@ -366,7 +368,7 @@
         eyebrow: "L'expérience client",
         title: 'Découvrez l\'expérience <span class="serif">client.</span>',
         card1: { brand: "Salon Lumière", greeting: "Bonjour Thomas", hero: "Coupe tendance du mois", caption: "Votre salon, en un geste" },
-        card2: { subtitle: "Séances & forfaits en cours", prog1: "Forfait coloration", prog2: "Forfait brushing", captionStrong: "Forfaits & coupes" },
+        card2: { subtitle: "Statut fidélité", prog1: "Prochaine récompense", prog2: "Statut : Argent", captionStrong: "Ma fidélité" },
         card3: {
           subtitle: "Votre référence coiffure",
           post1Title: "3 gestes pour prolonger votre couleur",
@@ -378,7 +380,7 @@
       further: {
         lead: "Milappli fait vivre la relation avec vos clients. Pour les salons qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
         stepChoice: "Choix de la coupe",
-        level1: "Vos conseils, vos nouveautés et le suivi de vos forfaits font vivre la relation entre deux rendez-vous et donnent envie à vos clients de revenir.",
+        level1: "Vos conseils, vos nouveautés et le suivi de vos rendez-vous font vivre la relation entre deux rendez-vous et donnent envie à vos clients de revenir.",
         level2: "De l'envie au prochain rendez-vous, sans quitter votre univers. Vos clients réservent directement depuis votre application, et vous centralisez la gestion de vos rendez-vous.",
         level3: "Pour les salons qui souhaitent centraliser davantage leur gestion, Milappli peut réunir relation client, agenda et logiciel de caisse au sein d'une même solution.",
         closing: "Chaque salon choisit le niveau adapté à ses besoins, au moment de la démonstration."
