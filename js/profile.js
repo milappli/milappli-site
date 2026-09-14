@@ -33,7 +33,6 @@
         ]
       },
       mockup: {
-        imgAlt: "Écran d'accueil de l'app - Milappli",
         float1: { title: "Votre soin Éclat vous attend", sub: "notification de votre institut" },
         float2: { title: "Récompense débloquée !", sub: "−15 € sur votre prochaine visite" }
       },
@@ -51,13 +50,7 @@
         eyebrow: "L'idée Milappli",
         title: 'Et si l\'influenceuse beauté de vos clientes… <span class="serif">c\'était vous ?</span>',
         lead1: "Chaque jour, vos clientes découvrent des conseils, des produits et des routines auprès de personnes qui ne les connaissent pas. Pourtant, vous connaissez leur peau, leurs habitudes, leurs objectifs et les soins qu'elles réalisent.",
-        lead2: '<strong style="color:var(--ink); font-weight:500">Avec Milappli, reprenez votre place de référence beauté.</strong> Partagez vos conseils, vos recommandations, vos nouveautés et votre expertise directement dans l\'univers de votre institut. Vos clientes savent où retrouver une information fiable : auprès de la professionnelle qui les connaît réellement.',
-        mockHeaderTitle: "Conseils",
-        mockHeaderSub: "Votre référence beauté",
-        post1Title: "3 gestes pour prolonger votre soin éclat",
-        post1Sub: "Les conseils de votre institut pour une peau lumineuse toute la semaine.",
-        post2Title: "Notre nouvelle routine anti-âge",
-        post2Sub: "Découvrez le protocole recommandé par votre esthéticienne."
+        lead2: '<strong style="color:var(--ink); font-weight:500">Avec Milappli, reprenez votre place de référence beauté.</strong> Partagez vos conseils, vos recommandations, vos nouveautés et votre expertise directement dans l\'univers de votre institut. Vos clientes savent où retrouver une information fiable : auprès de la professionnelle qui les connaît réellement.'
       },
       benefits: {
         title: 'Une relation plus forte. Une clientèle <span class="serif">qui revient naturellement.</span>',
@@ -115,10 +108,6 @@
       },
       atYourImage: {
         title: 'Votre univers. Votre expertise. <span class="serif">Votre relation client.</span>',
-        mockBrand: "Institut Lumière",
-        mockGreeting: "Bonjour Camille",
-        mockHero: "Soin Éclat du mois",
-        mockAppointment: "Jeudi 14h30 — Soin visage",
         lead: "Milappli devient le prolongement digital de votre institut. Votre logo, vos couleurs, vos photos et votre contenu créent un espace immédiatement reconnaissable par vos clientes.",
         items: {
           1: { text: "Une interface adaptée à l'univers visuel de votre institut." },
@@ -132,12 +121,6 @@
         step1: "Elle découvre",
         step2: "Elle ajoute à sa wishlist",
         step4: "Votre institut, destination cadeau",
-        products: [
-          { title: "Soin Éclat", price: "65 €" },
-          { title: "Sérum Vitamine C", price: "42 €" },
-          { title: "Massage relaxant", price: "55 €" },
-          { title: "Cure anti-âge", price: "210 €" }
-        ],
         tagName: "Wishlist de Camille"
       },
       results: {
@@ -149,11 +132,7 @@
           2: '<strong>Une relation plus personnelle :</strong> chaque cliente retrouve son parcours et se sent reconnue, pas seulement servie.',
           3: '<strong>Une fréquence de visite plus importante :</strong> les clientes entretiennent leur cure jusqu\'au bout, et les rendez-vous suivants se prennent plus naturellement.',
           4: '<strong>Un fichier client réellement exploité :</strong> les clientes que vous avez déjà reçues restent actives, pas oubliées.'
-        },
-        mockSubtitle: "Statut fidélité",
-        prog1Title: "Prochaine récompense",
-        prog2Title: "Statut : Argent",
-        promoTitle: "−15 € de réduction débloqués"
+        }
       },
       reflex: {
         title1: 'Lorsqu\'une cliente pense beauté, <span class="serif">où va-t-elle en premier ?</span>',
@@ -171,15 +150,8 @@
       preview: {
         eyebrow: "L'expérience cliente",
         title: 'Découvrez l\'expérience <span class="serif">cliente.</span>',
-        card1: { brand: "Institut Lumière", greeting: "Bonjour Camille", hero: "Soin Éclat du mois", caption: "Votre institut, en un geste" },
-        card2: { subtitle: "Statut fidélité", prog1: "Prochaine récompense", prog2: "Statut : Argent", captionStrong: "Ma fidélité" },
-        card3: {
-          subtitle: "Votre référence beauté",
-          post1Title: "3 gestes pour prolonger votre soin éclat",
-          post1Sub: "Les conseils de votre institut, entre deux rendez-vous.",
-          post2Title: "Notre nouvelle routine anti-âge",
-          post2Sub: "Le protocole recommandé par votre esthéticienne."
-        }
+        card1: { caption: "Votre institut, en un geste" },
+        card2: { captionStrong: "Ma fidélité" }
       },
       further: {
         lead: "Milappli fait vivre la relation avec vos clientes. Pour les instituts qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
@@ -229,7 +201,6 @@
         ]
       },
       mockup: {
-        imgAlt: "Écran d'accueil de l'app - Milappli",
         float1: { title: "Votre coupe du mois vous attend", sub: "notification de votre salon" },
         float2: { title: "Récompense débloquée !", sub: "−15 € sur votre prochaine visite" }
       },
@@ -247,13 +218,7 @@
         eyebrow: "L'idée Milappli",
         title: 'Et si l\'influenceur coiffure de vos clients… <span class="serif">c\'était vous ?</span>',
         lead1: "Chaque jour, vos clients découvrent des conseils, des produits et des tendances auprès de personnes qui ne les connaissent pas. Pourtant, vous connaissez leurs cheveux, leurs habitudes, leurs envies et les coupes qu'ils réalisent.",
-        lead2: '<strong style="color:var(--ink); font-weight:500">Avec Milappli, reprenez votre place de référence coiffure.</strong> Partagez vos conseils, vos recommandations, vos nouveautés et votre expertise directement dans l\'univers de votre salon. Vos clients savent où retrouver une information fiable : auprès du professionnel qui les connaît réellement.',
-        mockHeaderTitle: "Conseils",
-        mockHeaderSub: "Votre référence coiffure",
-        post1Title: "3 gestes pour prolonger votre couleur",
-        post1Sub: "Les conseils de votre salon pour une coloration éclatante toute la semaine.",
-        post2Title: "Notre nouvelle routine soin capillaire",
-        post2Sub: "Découvrez le protocole recommandé par votre coiffeur."
+        lead2: '<strong style="color:var(--ink); font-weight:500">Avec Milappli, reprenez votre place de référence coiffure.</strong> Partagez vos conseils, vos recommandations, vos nouveautés et votre expertise directement dans l\'univers de votre salon. Vos clients savent où retrouver une information fiable : auprès du professionnel qui les connaît réellement.'
       },
       benefits: {
         title: 'Votre clientèle est votre première <span class="serif">source de chiffre d\'affaires.</span>',
@@ -311,10 +276,6 @@
       },
       atYourImage: {
         title: "Une relation personnalisée jusque dans la prise de rendez-vous",
-        mockBrand: "Salon Lumière",
-        mockGreeting: "Bonjour Thomas",
-        mockHero: "Coupe tendance du mois",
-        mockAppointment: "Jeudi 14h30 — Coupe & brushing",
         lead: "Toutes vos clientes sont différentes. Pourquoi leur attribuer systématiquement le même temps pour une même prestation ?<br><br>Avec Milappli, le temps nécessaire peut être personnalisé selon chaque cliente, son cheveu et ses habitudes.<br><br>Vous connaissez mieux votre planning, vous anticipez mieux chaque rendez-vous et vous offrez une expérience réellement personnalisée.",
         items: {
           1: { text: "Une interface adaptée à l'univers visuel de votre salon." },
@@ -328,12 +289,6 @@
         step1: "Il découvre",
         step2: "Il ajoute à sa wishlist",
         step4: "Votre salon, destination cadeau",
-        products: [
-          { title: "Coupe + Brushing", price: "45 €" },
-          { title: "Soin Kératine", price: "38 €" },
-          { title: "Massage crânien", price: "35 €" },
-          { title: "Coloration premium", price: "180 €" }
-        ],
         tagName: "Wishlist de Thomas"
       },
       results: {
@@ -345,11 +300,7 @@
           2: '<strong>Une relation plus personnelle :</strong> chaque client retrouve son parcours et se sent reconnu, pas seulement servi.',
           3: '<strong>Une fréquence de visite plus importante :</strong> les clients reviennent régulièrement, et les rendez-vous suivants se prennent plus naturellement.',
           4: '<strong>Un fichier client réellement exploité :</strong> les clients que vous avez déjà reçus restent actifs, pas oubliés.'
-        },
-        mockSubtitle: "Statut fidélité",
-        prog1Title: "Prochaine récompense",
-        prog2Title: "Statut : Argent",
-        promoTitle: "−15 € de réduction débloqués"
+        }
       },
       reflex: {
         title1: "Faites de votre expertise leur premier réflexe",
@@ -367,15 +318,8 @@
       preview: {
         eyebrow: "L'expérience client",
         title: 'Découvrez l\'expérience <span class="serif">client.</span>',
-        card1: { brand: "Salon Lumière", greeting: "Bonjour Thomas", hero: "Coupe tendance du mois", caption: "Votre salon, en un geste" },
-        card2: { subtitle: "Statut fidélité", prog1: "Prochaine récompense", prog2: "Statut : Argent", captionStrong: "Ma fidélité" },
-        card3: {
-          subtitle: "Votre référence coiffure",
-          post1Title: "3 gestes pour prolonger votre couleur",
-          post1Sub: "Les conseils de votre salon, entre deux rendez-vous.",
-          post2Title: "Notre nouvelle routine soin capillaire",
-          post2Sub: "Le protocole recommandé par votre coiffeur."
-        }
+        card1: { caption: "Votre salon, en un geste" },
+        card2: { captionStrong: "Ma fidélité" }
       },
       further: {
         lead: "Milappli fait vivre la relation avec vos clients. Pour les salons qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
