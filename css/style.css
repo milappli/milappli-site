@@ -238,7 +238,7 @@
   .hero-grid{position:relative; z-index:1; display:grid; grid-template-columns:1.02fr .98fr; gap:56px; align-items:center}
   .hero h1{font-family:"Cormorant Garamond",serif; font-size:62px; line-height:1.02; letter-spacing:-0.02em; font-weight:500; margin:22px 0 0; color:var(--ink); text-wrap:balance}
   .hero h1 .serif{font-size:1.05em}
-  .hero p.sub{margin:26px 0 0; max-width:480px; font-size:17.5px; line-height:1.6; color:var(--ink-2)}
+  .hero p.sub{margin:26px 0 0; max-width:520px; font-size:17.5px; line-height:1.6; color:var(--ink-2)}
   .hero .actions{display:flex; gap:12px; margin-top:34px; flex-wrap:wrap}
   .hero .reassure{margin-top:26px; display:flex; gap:22px; flex-wrap:wrap; color:var(--ink-3); font-size:13.5px}
   .hero .reassure span{display:flex; align-items:center; gap:8px}

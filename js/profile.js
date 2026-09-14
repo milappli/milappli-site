@@ -113,6 +113,7 @@
         ]
       },
       atYourImage: {
+        title: 'Votre univers. Votre expertise. <span class="serif">Votre relation client.</span>',
         mockBrand: "Institut Lumière",
         mockGreeting: "Bonjour Camille",
         mockHero: "Soin Éclat du mois",
@@ -125,6 +126,7 @@
         }
       },
       wishlist: {
+        title: 'Ses envies, <span class="serif">déjà toutes trouvées.</span>',
         lead: "Votre cliente compose sa wishlist au fil de ses envies — soins, produits ou prestations. Lorsqu'un proche souhaite lui faire plaisir, il peut la consulter et choisir directement ce qui lui correspond.",
         step1: "Elle découvre",
         step2: "Elle ajoute à sa wishlist",
@@ -203,8 +205,8 @@
       },
       hero: {
         eyebrow: "La plateforme qui transforme chaque coupe en une relation durable",
-        h1: 'Ne soyez plus seulement le coiffeur de vos clients.<br>Devenez leur <span class="serif">référence coiffure.</span>',
-        sub: "Votre expertise ne devrait pas s'arrêter lorsqu'un client quitte votre salon. Avec Milappli, restez présent dans son quotidien, entretenez le lien entre deux coupes et devenez naturellement son premier réflexe lorsqu'il pense coiffure."
+        h1: 'Bien plus que coiffer vos clientes.<br>Devenez leur <span class="serif">référence pour leurs cheveux.</span>',
+        sub: "Vos clientes ne viennent pas seulement chez vous pour une coupe ou une couleur. Elles vous confient leur image, leurs envies et la santé de leurs cheveux.<br><br>Vous connaissez leur cheveu, leur historique, leurs habitudes, leurs problématiques… et parfois même leurs envies de changement avant qu'elles ne sachent vraiment les exprimer.<br><br>Milappli vous permet de transformer cette connaissance en une relation qui continue bien au-delà du rendez-vous.<br><br>Restez présent entre deux visites, partagez vos conseils, recommandez les soins et produits réellement adaptés, inspirez de nouvelles envies et accompagnez les changements de coupe, de couleur ou de style."
       },
       features: {
         eyebrow: "Fonctionnalités",
@@ -250,8 +252,8 @@
         post2Sub: "Découvrez le protocole recommandé par votre coiffeur."
       },
       benefits: {
-        title: 'Une relation plus forte. Une clientèle <span class="serif">qui revient naturellement.</span>',
-        lead: "Milappli ne cherche pas à vous apporter de nouveaux clients. L'objectif est de mieux exploiter et fidéliser celui que vous possédez déjà.",
+        title: 'Votre clientèle est votre première <span class="serif">source de chiffre d\'affaires.</span>',
+        lead: "Un conseil au bon moment peut déclencher un soin.<br>Une inspiration peut provoquer une envie de changement.<br>Une recommandation personnalisée peut générer une vente de produit.<br>Un échange peut faire naître un nouveau rendez-vous.<br><br>Vous ne vous contentez plus d'attendre que votre cliente revienne. Vous restez son coiffeur, son conseiller et son interlocuteur privilégié entre deux rendez-vous.",
         items: [
           { title: "Plus de <em>rendez-vous</em>", text: "Un client qui pense régulièrement à son salon pense plus facilement à reprendre rendez-vous." },
           { title: "Plus de coupes et de <em>forfaits terminés</em>", text: "Le suivi et la présence régulière favorisent le retour des clients jusqu'au bout de leur parcours." },
@@ -304,11 +306,12 @@
         ]
       },
       atYourImage: {
+        title: "Une relation personnalisée jusque dans la prise de rendez-vous",
         mockBrand: "Salon Lumière",
         mockGreeting: "Bonjour Thomas",
         mockHero: "Coupe tendance du mois",
         mockAppointment: "Jeudi 14h30 — Coupe & brushing",
-        lead: "Milappli devient le prolongement digital de votre salon. Votre logo, vos couleurs, vos photos et votre contenu créent un espace immédiatement reconnaissable par vos clients.",
+        lead: "Toutes vos clientes sont différentes. Pourquoi leur attribuer systématiquement le même temps pour une même prestation ?<br><br>Avec Milappli, le temps nécessaire peut être personnalisé selon chaque cliente, son cheveu et ses habitudes.<br><br>Vous connaissez mieux votre planning, vous anticipez mieux chaque rendez-vous et vous offrez une expérience réellement personnalisée.",
         items: {
           1: { text: "Une interface adaptée à l'univers visuel de votre salon." },
           2: { text: "Coupes, forfaits, conseils et actualités présentés avec votre ton." },
@@ -316,7 +319,8 @@
         }
       },
       wishlist: {
-        lead: "Votre client compose sa wishlist au fil de ses envies — coupes, produits ou prestations. Lorsqu'un proche souhaite lui faire plaisir, il peut la consulter et choisir directement ce qui lui correspond.",
+        title: "Reprenez votre place dans le conseil et la vente",
+        lead: "Vous êtes la personne qui connaît réellement les cheveux de votre cliente.<br><br>Pourtant, une partie importante de ses achats capillaires peut aujourd'hui se faire ailleurs : sites Internet, réseaux sociaux, recommandations extérieures ou vente directe.<br><br>Chaque produit acheté ailleurs est une vente que votre expertise aurait pu générer.<br><br>Milappli vous permet de prolonger votre diagnostic et vos conseils après le rendez-vous : recommandations personnalisées, routines, produits adaptés, nouveautés et conseils d'entretien.<br><br>Vous ne vendez plus simplement un produit. Vous poursuivez l'accompagnement commencé au salon.",
         step1: "Il découvre",
         step2: "Il ajoute à sa wishlist",
         step4: "Votre salon, destination cadeau",
@@ -342,9 +346,9 @@
         promoTitle: "−20% sur les coupes du mois"
       },
       reflex: {
-        title1: 'Lorsqu\'un client pense coiffure, <span class="serif">où va-t-il en premier ?</span>',
-        sub: "Google ? Instagram ? Un influenceur ?",
-        lead: "En restant présent entre deux rendez-vous, votre salon devient progressivement l'endroit où vos clients viennent chercher une coupe, un produit, une nouveauté ou simplement un conseil."
+        title1: "Faites de votre expertise leur premier réflexe",
+        sub: "",
+        lead: "Une couleur à entretenir, des cheveux fragilisés, une envie de changement, un nouveau style, un problème de cuir chevelu ou simplement besoin d'un bon produit…<br><br>Avant de chercher sur Internet ou de suivre le conseil de quelqu'un qui ne connaît pas ses cheveux, votre cliente devrait penser à vous.<br><br>Milappli crée un lien simple et direct avec elle pour communiquer, conseiller et recommander au bon moment."
       },
       how: {
         items: {
