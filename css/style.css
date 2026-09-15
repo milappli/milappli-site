@@ -229,6 +229,7 @@
   .phone .notch{position:absolute; top:18px; left:50%; transform:translateX(-50%); width:96px; height:28px; border-radius:999px; background:#0E1213; z-index:5}
   .phone .screen{border-radius:38px; overflow:hidden; background:#fff; position:relative}
   .phone .screen img, .phone .screen .app-mock{display:block; width:100%; height:100%; object-fit:cover}
+  .phone .screen img.mockup-img-wide{object-fit:contain; object-position:center center}
 
   /* ---------- HERO ---------- */
   .hero{position:relative; padding:90px 0 70px; overflow:hidden}
