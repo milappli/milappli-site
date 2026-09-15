@@ -154,12 +154,11 @@
         card2: { captionStrong: "Ma fidélité" }
       },
       further: {
-        lead: "Milappli fait vivre la relation avec vos clientes. Pour les instituts qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
+        lead: "Milappli fait vivre la relation avec vos clientes. Pour les instituts qui le souhaitent, une solution complémentaire permet d'aller plus loin.",
         stepChoice: "Choix du soin",
         level1: "Vos conseils, vos nouveautés et le suivi de vos forfaits font vivre la relation entre deux rendez-vous et donnent envie à vos clientes de revenir.",
         level2: "De l'envie au prochain rendez-vous, sans quitter votre univers. Vos clientes réservent directement depuis votre application, et vous centralisez la gestion de vos rendez-vous.",
-        level3: "Pour les instituts qui souhaitent centraliser davantage leur gestion, Milappli peut réunir relation client, agenda et logiciel de caisse au sein d'une même solution.",
-        closing: "Chaque institut choisit le niveau adapté à ses besoins, au moment de la démonstration."
+        closing: "Avec ou sans agenda intégré : vous choisissez la formule adaptée à votre institut, au moment de la démonstration."
       },
       devis: {
         title: 'Une solution adaptée <span class="serif">à votre institut.</span>',
@@ -322,12 +321,11 @@
         card2: { captionStrong: "Ma fidélité" }
       },
       further: {
-        lead: "Milappli fait vivre la relation avec vos clients. Pour les salons qui le souhaitent, deux solutions complémentaires permettent d'aller plus loin.",
+        lead: "Milappli fait vivre la relation avec vos clients. Pour les salons qui le souhaitent, une solution complémentaire permet d'aller plus loin.",
         stepChoice: "Choix de la coupe",
         level1: "Vos conseils, vos nouveautés et le suivi de vos rendez-vous font vivre la relation entre deux rendez-vous et donnent envie à vos clients de revenir.",
         level2: "De l'envie au prochain rendez-vous, sans quitter votre univers. Vos clients réservent directement depuis votre application, et vous centralisez la gestion de vos rendez-vous.",
-        level3: "Pour les salons qui souhaitent centraliser davantage leur gestion, Milappli peut réunir relation client, agenda et logiciel de caisse au sein d'une même solution.",
-        closing: "Chaque salon choisit le niveau adapté à ses besoins, au moment de la démonstration."
+        closing: "Avec ou sans agenda intégré : vous choisissez la formule adaptée à votre salon, au moment de la démonstration."
       },
       devis: {
         title: 'Une solution adaptée <span class="serif">à votre salon.</span>',
